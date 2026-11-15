@@ -1,0 +1,102 @@
+{
+  "run_timestamp": "2026-11-15 21:59:46",
+  "phase": "Phase 12 \u2014 Final Dataset Audit",
+  "final_dataset_status": "READY WITH WARNINGS",
+  "corpus_overview": {
+    "total_images": 828,
+    "original_valid_documents": 356,
+    "augmented_training_images": 472,
+    "total_annotations": 6612,
+    "quarantined_corrupt_documents": 4
+  },
+  "split_counts": {
+    "train": {
+      "original_docs": 284,
+      "augmented_images": 472,
+      "total_images": 756,
+      "annotations": 6039
+    },
+    "validation": {
+      "original_docs": 36,
+      "augmented_images": 0,
+      "total_images": 36,
+      "annotations": 285
+    },
+    "test": {
+      "original_docs": 36,
+      "augmented_images": 0,
+      "total_images": 36,
+      "annotations": 288
+    }
+  },
+  "script_distribution": {
+    "all_images": {
+      "en": 287,
+      "hi": 274,
+      "bn": 267
+    },
+    "original_docs": {
+      "en": 123,
+      "hi": 118,
+      "bn": 115
+    }
+  },
+  "scorecard_summary": {
+    "PASS": 9,
+    "WARNING": 3
+  },
+  "identified_limitations_and_warnings": [
+    {
+      "type": "CROSS_SPLIT_EXACT_DUPLICATE_TEMPLATES",
+      "severity": "HIGH",
+      "affected_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "affected_groups": [
+        "0ed11bb2d14104030208b496d65fe35eac9e1a3fa046aef8926ce8581414191d",
+        "bd06c63828b852247193f4bdace47ea55dd250950b5a926116780c4680020783",
+        "a98aff3a41f5ecf7522fc29198c6371a810daede96bbf253ae3d62f3f42fce6b",
+        "53d201e434e1476bb97f11807a10c5763f6b3667297f2076c0c129016a82c624"
+      ],
+      "description": "External adapter documents (EXT_B2B, EXT_BN, EXT_INV) share identical static pixel templates across splits. Also synthetic triplet INDIC_0039/62 (train) vs INDIC_0061 (val) share exact pixel render.",
+      "downstream_impact": "Models evaluated on validation/test may achieve inflated accuracy due to template memorization rather than generalized OCR recognition."
+    },
+    {
+      "type": "NEAR_DUPLICATE_CROSS_SPLIT_SEPARATION",
+      "severity": "MEDIUM",
+      "affected_splits": [
+        "train",
+        "test"
+      ],
+      "pairs": [
+        "INDIC_0110\u2194INDIC_0111 (test vs train)",
+        "INDIC_0160\u2194INDIC_0161 (test vs train)"
+      ],
+      "description": "Baseline Phase 0 split separated near-duplicate pairs INDIC_0110 (test) vs INDIC_0111 (train) and INDIC_0160 (test) vs INDIC_0161 (train) (pHash Hamming distance <= 4).",
+      "downstream_impact": "Mild visual similarity leakage between train and test splits."
+    },
+    {
+      "type": "STATIC_TEXT_REUSE_ACROSS_SPLITS",
+      "severity": "MEDIUM",
+      "affected_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "overlapping_strings_count": 25,
+      "description": "24 static field text strings from external adapter documents appear across all three splits.",
+      "downstream_impact": "Downstream language model decoders may overfit to exact invoice field strings."
+    }
+  ],
+  "suitability_for_baseline_ocr": {
+    "suitable": true,
+    "condition": "Suitable for baseline OCR model development, ablation studies, and pipeline benchmarking provided that evaluation reports document the template memorization caveat.",
+    "recommendations": [
+      "Exclude external adapter templates from test-split zero-shot evaluation.",
+      "Incorporate unique invoice number generation in future synthetic iterations.",
+      "Consolidate near-duplicate pairs into the same partition before production deployment."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+group_id,document_id,representative_id,original_split,status,action,reason
+EXT_B2B,EXT_B2B_0002,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0002,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0002,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0003,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0003,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0003,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0004,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0004,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0004,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0005,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0005,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0005,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0006,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0006,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0006,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0007,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0007,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0007,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0008,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0008,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0008,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0009,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0009,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0009,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0010,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0010,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0010,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0011,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0011,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0011,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0012,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0012,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0012,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0013,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0013,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0013,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0014,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0014,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0014,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0015,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0015,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0015,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0016,EXT_B2B_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0016,EXT_BN_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0016,EXT_INV_0001,train,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0017,EXT_B2B_0001,validation,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0017,EXT_BN_0001,validation,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0017,EXT_INV_0001,validation,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0018,EXT_B2B_0001,validation,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0018,EXT_BN_0001,validation,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0018,EXT_INV_0001,validation,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0019,EXT_B2B_0001,test,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0019,EXT_BN_0001,test,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0019,EXT_INV_0001,test,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_B2B,EXT_B2B_0020,EXT_B2B_0001,test,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_BN,EXT_BN_0020,EXT_BN_0001,test,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+EXT_INV,EXT_INV_0020,EXT_INV_0001,test,REDUNDANT_EXACT_DUPLICATE,QUARANTINE,Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train.
+SYNTHETIC_BLANK_CANVAS_GROUP,INDIC_0039,NONE (DEFECTIVE),train,DEFECTIVE_EMPTY_OR_NULL_BBOX,QUARANTINE,DEFECTIVE_SYNTHETIC_EMPTY_GROUND_TRUTH_BLANK_IMAGE
+SYNTHETIC_BLANK_CANVAS_GROUP,INDIC_0061,NONE (DEFECTIVE),validation,DEFECTIVE_EMPTY_OR_NULL_BBOX,QUARANTINE,DEFECTIVE_SYNTHETIC_ALL_BBOXES_NULL_BLANK_IMAGE
+SYNTHETIC_BLANK_CANVAS_GROUP,INDIC_0062,NONE (DEFECTIVE),train,DEFECTIVE_EMPTY_OR_NULL_BBOX,QUARANTINE,DEFECTIVE_SYNTHETIC_ALL_BBOXES_NULL_BLANK_IMAGE
+NEAR_DUPLICATE_PAIR_1,INDIC_0110 vs INDIC_0111,RETAIN_BOTH,"INDIC_0110=test, INDIC_0111=train",GENUINE_DISTINCT_DOCUMENTS,RETAIN_IN_SPLITS,Distinct text strings verified; pHash distance 4 caused by shared synthetic layout template.
+NEAR_DUPLICATE_PAIR_2,INDIC_0160 vs INDIC_0161,RETAIN_BOTH,"INDIC_0160=test, INDIC_0161=train",GENUINE_DISTINCT_DOCUMENTS,RETAIN_IN_SPLITS,Distinct text strings verified; pHash distance 2 caused by shared synthetic layout template.

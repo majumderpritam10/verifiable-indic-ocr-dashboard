@@ -1,0 +1,134 @@
+{
+  "run_timestamp": "2026-11-15 11:06:09",
+  "phase": "Phase 8 \u2014 External Dataset Search (Kaggle & Hugging Face)",
+  "total_datasets_evaluated": 8,
+  "target_languages": [
+    "bn (Bengali)",
+    "hi (Hindi)",
+    "en (English)"
+  ],
+  "top_recommended_datasets_for_phase_9": [
+    {
+      "dataset_id": "HF-SRV-IND-03",
+      "name": "Sarvam AI Indic-OCR-Bench",
+      "source": "Hugging Face",
+      "primary_scripts": "bn,hi,en",
+      "doc_types": "government_notice,form,printed",
+      "image_count": 5000,
+      "license": "Apache-2.0",
+      "integration_priority": 95,
+      "adapter_notes": "High benchmark value; ground truth includes WER/CER evaluation splits."
+    },
+    {
+      "dataset_id": "KAG-IN-INV-01",
+      "name": "Indian Grocery Tax Invoice Image Dataset",
+      "source": "Kaggle",
+      "primary_scripts": "hi,en",
+      "doc_types": "invoice,receipt",
+      "image_count": 1250,
+      "license": "CC-BY-4.0",
+      "integration_priority": 94,
+      "adapter_notes": "Maps invoice headers, tax tables, totals directly to name, date, total_amount fields."
+    },
+    {
+      "dataset_id": "KAG-B2B-INV-06",
+      "name": "High-Quality OCR-Ready Indian Market Invoice PDFs",
+      "source": "Kaggle",
+      "primary_scripts": "en,hi",
+      "doc_types": "invoice,utility_bill",
+      "image_count": 3200,
+      "license": "CC0 (Public Domain)",
+      "integration_priority": 93,
+      "adapter_notes": "Contains exact B2B fields: GSTIN, Tax ID, Customer Name, Total Amount, Date."
+    }
+  ],
+  "integration_schema_target": {
+    "document_id": "Prefixed string (e.g. EXT_INVOICE_0001, EXT_BEN_0001)",
+    "field_name": "Standardized semantic field (name, date, address, total_amount, recipient, etc.)",
+    "text": "Unicode NFC normalized Indic / English text",
+    "bbox": "[x1, y1, x2, y2] absolute pixel coordinates",
+    "script": "ISO code: bn | hi | en"
+  },
+  "all_datasets": [
+    {
+      "dataset_id": "HF-SRV-IND-03",
+      "name": "Sarvam AI Indic-OCR-Bench",
+      "source": "Hugging Face",
+      "primary_scripts": "bn,hi,en",
+      "image_count": 5000,
+      "license": "Apache-2.0",
+      "schema_compatibility": 92,
+      "integration_priority": 95
+    },
+    {
+      "dataset_id": "KAG-IN-INV-01",
+      "name": "Indian Grocery Tax Invoice Image Dataset",
+      "source": "Kaggle",
+      "primary_scripts": "hi,en",
+      "image_count": 1250,
+      "license": "CC-BY-4.0",
+      "schema_compatibility": 95,
+      "integration_priority": 94
+    },
+    {
+      "dataset_id": "KAG-B2B-INV-06",
+      "name": "High-Quality OCR-Ready Indian Market Invoice PDFs",
+      "source": "Kaggle",
+      "primary_scripts": "en,hi",
+      "image_count": 3200,
+      "license": "CC0 (Public Domain)",
+      "schema_compatibility": 96,
+      "integration_priority": 93
+    },
+    {
+      "dataset_id": "KAG-BN-OCR-02",
+      "name": "Bengali OCR Dataset 1M",
+      "source": "Kaggle / Hugging Face",
+      "primary_scripts": "bn",
+      "image_count": 1000000,
+      "license": "Open Data Commons / CC-BY-SA",
+      "schema_compatibility": 88,
+      "integration_priority": 92
+    },
+    {
+      "dataset_id": "IIIT-STR-BN-05",
+      "name": "IIIT-Synthetic-IndicSTR-Bengali",
+      "source": "Kaggle / IIIT Hyderabad",
+      "primary_scripts": "bn",
+      "image_count": 25000,
+      "license": "Academic Use / CC-BY-NC",
+      "schema_compatibility": 90,
+      "integration_priority": 89
+    },
+    {
+      "dataset_id": "HF-BN-DOC-07",
+      "name": "Swapnil Bangla OCR & Document Dataset",
+      "source": "Hugging Face",
+      "primary_scripts": "bn",
+      "image_count": 12000,
+      "license": "CC-BY-4.0",
+      "schema_compatibility": 89,
+      "integration_priority": 88
+    },
+    {
+      "dataset_id": "KAG-HI-SYN-04",
+      "name": "Hindi OCR Synthetic Line Image-Text Pair",
+      "source": "Kaggle",
+      "primary_scripts": "hi",
+      "image_count": 45000,
+      "license": "MIT",
+      "schema_compatibility": 85,
+      "integration_priority": 86
+    },
+    {
+      "dataset_id": "IIIT-H-STR-08",
+      "name": "IndicSTR12 Multi-Script Benchmark",
+      "source": "Kaggle / IIIT-H CVIT",
+      "primary_scripts": "hi,bn,en",
+      "image_count": 18000,
+      "license": "Research / CC-BY-4.0",
+      "schema_compatibility": 86,
+      "integration_priority": 85
+    }
+  ]
+}

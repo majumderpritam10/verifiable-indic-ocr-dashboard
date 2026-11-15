@@ -1,0 +1,4 @@
+split,original_documents,original_pct,augmented_images,total_images,annotations
+train,237,80.07%,468,705,5607
+validation,29,9.80%,0,29,229
+test,30,10.14%,0,30,240

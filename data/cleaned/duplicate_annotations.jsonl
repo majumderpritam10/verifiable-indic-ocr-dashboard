@@ -1,0 +1,6 @@
+{"document_id": "INDIC_0075", "field_name": "phone_number", "text": "বিল নম্বর: 8626", "bbox": [80, 1240, 603, 1292], "script": "bn", "_line_no": 601, "duplicate_reason": "REDUNDANT_FIELD_OCCURRENCE"}
+{"document_id": "INDIC_0075", "field_name": "phone_number", "text": "বিল নম্বর: 8626", "bbox": [80, 1240, 603, 1292], "script": "bn", "_line_no": 602, "duplicate_reason": "REDUNDANT_FIELD_OCCURRENCE"}
+{"document_id": "INDIC_0075", "field_name": "phone_number", "text": "বিল নম্বর: 8626", "bbox": [80, 1240, 603, 1292], "script": "bn", "_line_no": 603, "duplicate_reason": "REDUNDANT_FIELD_OCCURRENCE"}
+{"document_id": "INDIC_0088", "field_name": "signature", "text": "ঠিকানা: 3000", "bbox": [80, 600, 602, 659], "script": "bn", "_line_no": 701, "duplicate_reason": "REDUNDANT_FIELD_OCCURRENCE"}
+{"document_id": "INDIC_0088", "field_name": "signature", "text": "ঠিকানা: 3000", "bbox": [80, 600, 602, 659], "script": "bn", "_line_no": 702, "duplicate_reason": "REDUNDANT_FIELD_OCCURRENCE"}
+{"document_id": "INDIC_0088", "field_name": "signature", "text": "ঠিকানা: 3000", "bbox": [80, 600, 602, 659], "script": "bn", "_line_no": 703, "duplicate_reason": "REDUNDANT_FIELD_OCCURRENCE"}

@@ -1,0 +1,12 @@
+{"document_id": "INDIC_0038", "field_name": "total_amount", "text": "", "bbox": [80, 760, 638, 835], "script": "bn", "_line_no": 301, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0038", "field_name": "recipient", "text": "", "bbox": [80, 920, 896, 968], "script": "bn", "_line_no": 302, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0038", "field_name": "district", "text": "", "bbox": [80, 1080, 527, 1147], "script": "bn", "_line_no": 303, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0038", "field_name": "phone_number", "text": "", "bbox": [80, 1240, 489, 1303], "script": "bn", "_line_no": 304, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "name", "text": "", "bbox": [80, 120, 966, 173], "script": "bn", "_line_no": 305, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "date", "text": "", "bbox": [80, 280, 578, 334], "script": "bn", "_line_no": 306, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "address", "text": "", "bbox": [80, 440, 519, 498], "script": "bn", "_line_no": 307, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "signature", "text": "", "bbox": [80, 600, 874, 674], "script": "bn", "_line_no": 308, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "total_amount", "text": "", "bbox": [80, 760, 818, 821], "script": "bn", "_line_no": 309, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "recipient", "text": "", "bbox": [80, 920, 785, 984], "script": "bn", "_line_no": 310, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "district", "text": "", "bbox": [80, 1080, 572, 1159], "script": "bn", "_line_no": 311, "issue": "EMPTY_GROUND_TRUTH"}
+{"document_id": "INDIC_0039", "field_name": "phone_number", "text": "", "bbox": [80, 1240, 502, 1306], "script": "bn", "_line_no": 312, "issue": "EMPTY_GROUND_TRUTH"}

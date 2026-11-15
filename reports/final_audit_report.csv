@@ -1,0 +1,13 @@
+check_id,check_name,expected,actual,status,impact
+CHK_01,Image Readability & File Integrity,"100% of 828 images readable, non-zero byte, 1200x1600 px","Readable: 828/828, Corrupt: 0, Dim Mismatches: 0",PASS,CRITICAL
+CHK_02,Blank Placeholder Absence,"0 blank white placeholder images (std >= 1.0, dynamic range = 255)","Blank placeholders: 0, Min contrast std: 12.73, Mean contrast std: 19.93",PASS,CRITICAL
+CHK_03,Original Document Split Ratio,Target 80:10:10 (284 Train / 36 Val / 36 Test = 356 docs),"Train: 284 (79.8%), Val: 36 (10.1%), Test: 36 (10.1%)",PASS,HIGH
+CHK_04,Augmented Data Isolation (Train-Only),472 augmented images bound strictly to Train; 0 in Val/Test,"Train: 472, Val: 0, Test: 0, Orphan Parents: 0",PASS,CRITICAL
+CHK_05,Document ID Cross-Split Isolation,"0 document ID overlap between Train, Val, and Test","Train ∩ Val: 0, Train ∩ Test: 0, Val ∩ Test: 0",PASS,CRITICAL
+CHK_06,Exact SHA-256 Image Duplicate Isolation,0 SHA-256 duplicate image collisions across splits,4 SHA-256 hashes cross splits (3 external adapter templates + 1 synthetic triplet),WARNING,HIGH (LEAKAGE WARNING)
+CHK_07,Perceptual Hash (pHash) Near-Duplicate Isolation,0 near-duplicate pairs (pHash dist <= 10) split across partitions,"2 pairs cross-split: INDIC_0110↔INDIC_0111 (test vs train), INDIC_0160↔INDIC_0161 (test vs train)",WARNING,MEDIUM (SIMILARITY WARNING)
+CHK_08,Text & Template Re-use Across Splits,0 repeated static templates or identical field text strings across splits,"Train ∩ Val: 25 text strings, Train ∩ Test: 24 text strings (from static external adapter specs)",WARNING,MEDIUM (TEMPLATE OVERLAP)
+CHK_09,Bounding Box Geometric Validity & Bounds,"100% of defined bounding boxes within [0, 1200]x[0, 1600], w>=5, h>=5","Evaluated: 6612, Valid: 6568, Out-of-bounds: 0, Null: 44",PASS,HIGH
+CHK_10,Annotation Completeness & Injected Flaw Audit,99.4% completeness; exactly 36 intentional missing-GT records in Train,"Complete: 6576/6612 (99.45%), Missing GT: 36 (strictly in Train)",PASS,MEDIUM
+CHK_11,Script Label & Unicode Block Consistency,>98% concordance between declared script and Unicode text glyphs,"Evaluated: 6576, Script Mismatches: 0 (Concordance: 100.00%)",PASS,MEDIUM
+CHK_12,Annotation-to-Image 1-to-1 Linkage,100% of annotation records point to existing physical image files,Verified: 6612/6612 (Missing image files: 0),PASS,CRITICAL

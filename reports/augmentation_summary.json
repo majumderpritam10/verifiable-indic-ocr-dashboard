@@ -1,0 +1,25 @@
+{
+  "run_timestamp": "2026-11-15 20:01:57",
+  "phase": "Phase 10 \u2014 Data Augmentation",
+  "source_directory": "data\\preprocessed\\images",
+  "source_type": "preprocessed",
+  "total_candidate_train_ids": 240,
+  "valid_parent_images_augmented": 236,
+  "blank_placeholders_skipped": 0,
+  "corrupt_images_skipped": 0,
+  "validation_test_images_excluded": 60,
+  "total_augmented_images_generated": 472,
+  "total_augmented_annotations_generated": 3770,
+  "recipe_breakdown": {
+    "mild": 236,
+    "moderate": 236
+  },
+  "script_distribution": {
+    "en": 164,
+    "hi": 156,
+    "bn": 152
+  },
+  "random_seed": 42,
+  "zero_leakage_guarantee": true,
+  "bounding_box_transformation": "Affine 4-corner polygon projection with clipping"
+}

@@ -1,0 +1,38 @@
+{
+  "run_timestamp": "2026-11-15 11:18:34",
+  "phase": "Phase 9 \u2014 Dataset Integration",
+  "total_documents": 356,
+  "synthetic_documents": 296,
+  "external_documents": 60,
+  "total_annotations": 2842,
+  "script_distribution": {
+    "en": 123,
+    "hi": 118,
+    "bn": 115
+  },
+  "source_dataset_distribution": {
+    "synthetic_v1": 296,
+    "KAG-B2B-INV-06": 20,
+    "KAG-BN-OCR-02": 20,
+    "KAG-IN-INV-01": 20
+  },
+  "document_type_distribution": {
+    "document": 296,
+    "invoice": 40,
+    "government_notice": 20
+  },
+  "collision_free_guarantee": true,
+  "schema_target": [
+    "document_id",
+    "field_name",
+    "text_raw",
+    "text",
+    "bbox",
+    "bbox_norm",
+    "bbox_layoutlm",
+    "bbox_yolo",
+    "script",
+    "doc_type",
+    "source_dataset"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "run_timestamp": "2026-11-15 23:03:08",
+  "status": "READY",
+  "corpus_overview": {
+    "total_usable_images": 764,
+    "usable_original_documents": 296,
+    "usable_augmented_images": 468,
+    "usable_clean_annotations": 6076,
+    "negative_sample_annotations": 12,
+    "quarantined_images": 64,
+    "quarantined_annotations": 524
+  },
+  "original_document_split": {
+    "train": {
+      "count": 237,
+      "percentage": 80.07
+    },
+    "validation": {
+      "count": 29,
+      "percentage": 9.8
+    },
+    "test": {
+      "count": 30,
+      "percentage": 10.14
+    }
+  },
+  "all_images_split": {
+    "train": 705,
+    "validation": 29,
+    "test": 30
+  },
+  "annotations_split": {
+    "train": 5607,
+    "validation": 229,
+    "test": 240
+  },
+  "script_distribution": {
+    "original_documents": {
+      "en": 104,
+      "bn": 93,
+      "hi": 99
+    },
+    "all_images": {
+      "en": 268,
+      "bn": 241,
+      "hi": 255
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "run_timestamp": "2026-11-15 21:34:36",
+  "phase": "Phase 11 \u2014 Train / Validation / Test Splitting",
+  "split_ratio_target": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "total_documents_partitioned": 356,
+  "total_images_partitioned": 828,
+  "original_valid_images": 356,
+  "augmented_training_images": 472,
+  "quarantined_corrupt_synthetic": 4,
+  "split_distribution": {
+    "train": {
+      "total_images": 756,
+      "original_images": 284,
+      "augmented_images": 472,
+      "annotations": 6039
+    },
+    "validation": {
+      "total_images": 36,
+      "original_images": 36,
+      "augmented_images": 0,
+      "annotations": 285
+    },
+    "test": {
+      "total_images": 36,
+      "original_images": 36,
+      "augmented_images": 0,
+      "annotations": 288
+    }
+  },
+  "script_distribution": {
+    "train": {
+      "en": 262,
+      "hi": 250,
+      "bn": 244
+    },
+    "validation": {
+      "en": 12,
+      "bn": 12,
+      "hi": 12
+    },
+    "test": {
+      "en": 13,
+      "hi": 12,
+      "bn": 11
+    }
+  },
+  "zero_leakage_audit": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "parent_child_cross_split_leakage": 0,
+    "exact_sha256_cross_split_leakage": 4
+  },
+  "near_duplicate_audit": [
+    {
+      "pair": "INDIC_0110 \u2194 INDIC_0111",
+      "split_a": "test",
+      "split_b": "train",
+      "same_split": false,
+      "warning": "CROSS_SPLIT_NEAR_DUPLICATE_WARNING"
+    },
+    {
+      "pair": "INDIC_0160 \u2194 INDIC_0161",
+      "split_a": "test",
+      "split_b": "train",
+      "same_split": false,
+      "warning": "CROSS_SPLIT_NEAR_DUPLICATE_WARNING"
+    },
+    {
+      "pair": "INDIC_0210 \u2194 INDIC_0211",
+      "split_a": "train",
+      "split_b": "train",
+      "same_split": true,
+      "warning": null
+    }
+  ],
+  "random_seed": 42
+}

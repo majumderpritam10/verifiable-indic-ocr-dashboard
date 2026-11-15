@@ -1,0 +1,17 @@
+document_id,field_name,text,normalized_text,is_dup_ann,is_dup_text,_line_no
+INDIC_0030,phone_number,মোবাইল: 6567,মোবাইল: 6567,False,True,240
+INDIC_0075,phone_number,বিল নম্বর: 8626,বিল নম্বর: 8626,True,True,600
+INDIC_0075,phone_number,বিল নম্বর: 8626,বিল নম্বর: 8626,True,True,601
+INDIC_0075,phone_number,বিল নম্বর: 8626,বিল নম্বর: 8626,True,True,602
+INDIC_0075,phone_number,বিল নম্বর: 8626,বিল নম্বর: 8626,True,True,603
+INDIC_0083,district,মোবাইল: 6567,মোবাইল: 6567,False,True,663
+INDIC_0088,signature,ঠিকানা: 3000,ঠিকানা: 3000,True,True,700
+INDIC_0088,signature,ঠিকানা: 3000,ঠিকানা: 3000,True,True,701
+INDIC_0088,signature,ঠিকানা: 3000,ঠিকানা: 3000,True,True,702
+INDIC_0088,signature,ঠিকানা: 3000,ঠিকানা: 3000,True,True,703
+INDIC_0108,total_amount,राष्ट्रीयता: 2249,राष्ट्रीयता: 2249,False,True,861
+INDIC_0140,total_amount,राज्य: 6519,राज्य: 6519,False,True,1117
+INDIC_0167,signature,राज्य: 6519,राज्य: 6519,False,True,1332
+INDIC_0194,recipient,राष्ट्रीयता: 2249,राष्ट्रीयता: 2249,False,True,1550
+INDIC_0239,address,State: 8888,state: 8888,False,True,1907
+INDIC_0259,address,State: 8888,state: 8888,False,True,2067

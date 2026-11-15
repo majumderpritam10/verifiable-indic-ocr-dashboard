@@ -1,0 +1,32 @@
+{
+  "run_timestamp": "2026-11-15 11:00:42",
+  "phase": "Phase 7 \u2014 Image Preprocessing",
+  "total_images_processed": 296,
+  "quarantined_corrupt_excluded": 4,
+  "pipeline_stages": [
+    "Text rendering within validated bounding boxes (Nirmala UI)",
+    "Grayscale standardization",
+    "Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.0)",
+    "Bilateral edge-preserving denoising",
+    "Otsu adaptive binarization",
+    "Orientation audit & deskewing"
+  ],
+  "metric_improvements": {
+    "contrast_std": {
+      "raw_mean": 0.0,
+      "prep_mean": 22.82,
+      "improvement": "+22.82"
+    },
+    "blur_laplacian_var": {
+      "raw_mean": 0.0,
+      "prep_mean": 1517.03,
+      "improvement": "+1517.03"
+    },
+    "dynamic_range": {
+      "raw_mean": 0,
+      "prep_mean": 255
+    },
+    "mean_foreground_ratio": 0.008
+  },
+  "output_directory": "C:\\Users\\dhara\\Downloads\\Indic_OCR_Data_Engineering\\Indic_OCR_Data_Engineering\\data\\preprocessed\\images"
+}

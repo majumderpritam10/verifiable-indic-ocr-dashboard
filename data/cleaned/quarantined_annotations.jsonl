@@ -1,0 +1,32 @@
+{"document_id": "INDIC_0050", "field_name": "name", "text": "লিঙ্গ: 7658", "bbox": [80, 120, 763, 196], "script": "bn", "_line_no": 393, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "date", "text": "স্বাক্ষর: 1413", "bbox": [80, 280, 891, 355], "script": "bn", "_line_no": 394, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "address", "text": "জাতীয়তা: 7843", "bbox": [80, 440, 513, 499], "script": "bn", "_line_no": 395, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "signature", "text": "ফোন নম্বর: 9420", "bbox": [80, 600, 749, 666], "script": "bn", "_line_no": 396, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "total_amount", "text": "জন্ম তারিখ: 1216", "bbox": [80, 760, 517, 808], "script": "bn", "_line_no": 397, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "recipient", "text": "মোট বকেয়া: 8477", "bbox": [80, 920, 710, 989], "script": "bn", "_line_no": 398, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "district", "text": "ভ্যাট নম্বর: 9631", "bbox": [80, 1080, 656, 1128], "script": "bn", "_line_no": 399, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0050", "field_name": "phone_number", "text": "ফোন নম্বর: 8239", "bbox": [80, 1240, 573, 1288], "script": "bn", "_line_no": 400, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "name", "text": "দেওয়ানি আদালত 186", "bbox": [80, 120, 842, 168], "script": "bn", "_line_no": 793, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "date", "text": "লিঙ্গ: 8569", "bbox": [80, 280, 563, 351], "script": "bn", "_line_no": 794, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "address", "text": "মোট পরিমাণ: 6093", "bbox": [80, 440, 744, 496], "script": "bn", "_line_no": 795, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "signature", "text": "ঠিকানা: 481", "bbox": [80, 600, 544, 657], "script": "bn", "_line_no": 796, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "total_amount", "text": "বিভাগ: 8583", "bbox": [80, 760, 651, 827], "script": "bn", "_line_no": 797, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "recipient", "text": "দেওয়ানি আদালত 9448", "bbox": [80, 920, 512, 976], "script": "bn", "_line_no": 798, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "district", "text": "ব্যাংক হিসাব: 7458", "bbox": [80, 1080, 801, 1124], "script": "bn", "_line_no": 799, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0100", "field_name": "phone_number", "text": "নাম: 8186", "bbox": [80, 1240, 741, 1303], "script": "bn", "_line_no": 800, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "name", "text": "बैंक खाता: 6522", "bbox": [80, 120, 577, 178], "script": "hi", "_line_no": 1585, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "date", "text": "पिन कोड: 7559", "bbox": [80, 280, 932, 339], "script": "hi", "_line_no": 1586, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "address", "text": "पिन कोड: 894", "bbox": [80, 440, 565, 507], "script": "hi", "_line_no": 1587, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "signature", "text": "हस्ताक्षर: 7596", "bbox": [80, 600, 833, 673], "script": "hi", "_line_no": 1588, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "total_amount", "text": "तारीख: 8203", "bbox": [80, 760, 904, 828], "script": "hi", "_line_no": 1589, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "recipient", "text": "बिल संख्या: 8953", "bbox": [80, 920, 537, 971], "script": "hi", "_line_no": 1590, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "district", "text": "फ़ोन नंबर: 5300", "bbox": [80, 1080, 549, 1145], "script": "hi", "_line_no": 1591, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0199", "field_name": "phone_number", "text": "कुल राशि: 7434", "bbox": [80, 1240, 710, 1281], "script": "hi", "_line_no": 1592, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "name", "text": "Total Due: 1451", "bbox": [80, 120, 856, 177], "script": "en", "_line_no": 2385, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "date", "text": "Municipality: 407", "bbox": [80, 280, 923, 330], "script": "en", "_line_no": 2386, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "address", "text": "Municipality: 5061", "bbox": [80, 440, 772, 520], "script": "en", "_line_no": 2387, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "signature", "text": "Total Due: 9165", "bbox": [80, 600, 767, 647], "script": "en", "_line_no": 2388, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "total_amount", "text": "Service Charge: 8878", "bbox": [80, 760, 523, 812], "script": "en", "_line_no": 2389, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "recipient", "text": "Bill Number: 8549", "bbox": [80, 920, 775, 963], "script": "en", "_line_no": 2390, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "district", "text": "VAT Number: 306", "bbox": [80, 1080, 576, 1150], "script": "en", "_line_no": 2391, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}
+{"document_id": "INDIC_0299", "field_name": "phone_number", "text": "Total Amount: 311", "bbox": [80, 1240, 541, 1314], "script": "en", "_line_no": 2392, "quarantine_reason": "CORRUPT_SOURCE_IMAGE"}

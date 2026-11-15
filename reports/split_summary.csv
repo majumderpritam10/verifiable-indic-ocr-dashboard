@@ -1,0 +1,5 @@
+split,original_images,augmented_images,total_images,annotations,scripts
+Train,284,472,756,6039,"{'en': 262, 'hi': 250, 'bn': 244}"
+Validation,36,0,36,285,"{'en': 12, 'bn': 12, 'hi': 12}"
+Test,36,0,36,288,"{'en': 13, 'hi': 12, 'bn': 11}"
+TOTAL,356,472,828,6612,"{'en': 287, 'hi': 274, 'bn': 267}"

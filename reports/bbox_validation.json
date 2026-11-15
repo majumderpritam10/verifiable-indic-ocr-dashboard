@@ -1,0 +1,40 @@
+{
+  "run_timestamp": "2026-11-15 10:55:54",
+  "phase": "Phase 6b \u2014 Bounding Box Validation",
+  "total_records_evaluated": 2362,
+  "valid_bboxes": 2342,
+  "missing_bboxes": 20,
+  "invalid_bboxes": 0,
+  "page_dimensions_reference": {
+    "width": 1200,
+    "height": 1600
+  },
+  "bbox_statistics": {
+    "width": {
+      "min": 400.0,
+      "max": 900.0,
+      "mean": 651.54
+    },
+    "height": {
+      "min": 40.0,
+      "max": 80.0,
+      "mean": 60.17
+    },
+    "area": {
+      "min": 16160.0,
+      "max": 71840.0,
+      "mean": 39273.53
+    },
+    "aspect_ratio": {
+      "min": 5.162,
+      "max": 21.878,
+      "mean": 11.26
+    }
+  },
+  "coordinate_formats_generated": [
+    "bbox (absolute pixels: [x1, y1, x2, y2])",
+    "bbox_norm (relative 0.0 to 1.0)",
+    "bbox_layoutlm (scaled 0 to 1000 for LayoutLMv1/v2/v3)",
+    "bbox_yolo (normalized [x_center, y_center, width, height])"
+  ]
+}

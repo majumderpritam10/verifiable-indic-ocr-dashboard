@@ -1,0 +1,10 @@
+metric,value,details
+Source Image Type,preprocessed,C:\Users\Anusuya\Downloads\Indic_OCR_Data_Engineering_ankita\Indic_OCR_Data_Engineering\Indic_OCR_Data_Engineering\data\preprocessed\images
+Train Split IDs,240,From data/raw/indic_ocr_dataset/splits/train.txt
+Valid Training Documents,236,Passed non-blank and non-corrupt audits
+Blank Placeholders Skipped,0,Safeguard against augmenting blank white canvases
+Corrupt Images Skipped,0,Zero-byte / unreadable files quarantined in Phase 5
+Val & Test Images Protected,60,Zero leakage guarantee enforced
+Augmented Images Created,472,236 mild + 236 moderate
+Augmented Annotations Created,3770,"Text preserved verbatim, bboxes transformed"
+Random Seed,42,Deterministic reproducibility

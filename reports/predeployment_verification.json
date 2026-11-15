@@ -1,0 +1,30 @@
+{
+  "project_root": ".",
+  "corrected_manifest_rows": 764,
+  "split_image_counts": {
+    "train": 705,
+    "test": 30,
+    "validation": 29
+  },
+  "augmented_image_counts_by_split": {
+    "test": 0,
+    "train": 468,
+    "validation": 0
+  },
+  "manifest_image_files_missing": 0,
+  "manifest_images_unreadable": 0,
+  "manifest_images_wrong_dimensions": 0,
+  "clean_annotation_records": 6076,
+  "negative_sample_annotation_records": 12,
+  "quarantined_annotation_records": 524,
+  "final_audit_status": "READY WITH WARNINGS",
+  "final_audit_scorecard": {
+    "PASS": 10,
+    "WARNING": 2,
+    "FAIL": 0
+  },
+  "missing_image_examples": [],
+  "unreadable_image_examples": [],
+  "wrong_dimension_examples": [],
+  "read_only": true
+}

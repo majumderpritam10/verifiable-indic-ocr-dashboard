@@ -1,0 +1,564 @@
+{
+  "run_timestamp": "2026-11-15 23:03:08",
+  "total_records": 62,
+  "records": [
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0002",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0002",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0002",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0003",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0003",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0003",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0004",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0004",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0004",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0005",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0005",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0005",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0006",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0006",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0006",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0007",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0007",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0007",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0008",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0008",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0008",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0009",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0009",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0009",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0010",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0010",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0010",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0011",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0011",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0011",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0012",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0012",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0012",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0013",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0013",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0013",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0014",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0014",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0014",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0015",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0015",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0015",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0016",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0016",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0016",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "train",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0017",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "validation",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0017",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "validation",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0017",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "validation",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0018",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "validation",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0018",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "validation",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0018",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "validation",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0019",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "test",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0019",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "test",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0019",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "test",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_B2B",
+      "document_id": "EXT_B2B_0020",
+      "representative_id": "EXT_B2B_0001",
+      "original_split": "test",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_BN",
+      "document_id": "EXT_BN_0020",
+      "representative_id": "EXT_BN_0001",
+      "original_split": "test",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "EXT_INV",
+      "document_id": "EXT_INV_0020",
+      "representative_id": "EXT_INV_0001",
+      "original_split": "test",
+      "status": "REDUNDANT_EXACT_DUPLICATE",
+      "action": "QUARANTINE",
+      "reason": "Eliminates cross-split and intra-split exact pixel collisions; representative preserved in train."
+    },
+    {
+      "group_id": "SYNTHETIC_BLANK_CANVAS_GROUP",
+      "document_id": "INDIC_0039",
+      "representative_id": "NONE (DEFECTIVE)",
+      "original_split": "train",
+      "status": "DEFECTIVE_EMPTY_OR_NULL_BBOX",
+      "action": "QUARANTINE",
+      "reason": "DEFECTIVE_SYNTHETIC_EMPTY_GROUND_TRUTH_BLANK_IMAGE"
+    },
+    {
+      "group_id": "SYNTHETIC_BLANK_CANVAS_GROUP",
+      "document_id": "INDIC_0061",
+      "representative_id": "NONE (DEFECTIVE)",
+      "original_split": "validation",
+      "status": "DEFECTIVE_EMPTY_OR_NULL_BBOX",
+      "action": "QUARANTINE",
+      "reason": "DEFECTIVE_SYNTHETIC_ALL_BBOXES_NULL_BLANK_IMAGE"
+    },
+    {
+      "group_id": "SYNTHETIC_BLANK_CANVAS_GROUP",
+      "document_id": "INDIC_0062",
+      "representative_id": "NONE (DEFECTIVE)",
+      "original_split": "train",
+      "status": "DEFECTIVE_EMPTY_OR_NULL_BBOX",
+      "action": "QUARANTINE",
+      "reason": "DEFECTIVE_SYNTHETIC_ALL_BBOXES_NULL_BLANK_IMAGE"
+    },
+    {
+      "group_id": "NEAR_DUPLICATE_PAIR_1",
+      "document_id": "INDIC_0110 vs INDIC_0111",
+      "representative_id": "RETAIN_BOTH",
+      "original_split": "INDIC_0110=test, INDIC_0111=train",
+      "status": "GENUINE_DISTINCT_DOCUMENTS",
+      "action": "RETAIN_IN_SPLITS",
+      "reason": "Distinct text strings verified; pHash distance 4 caused by shared synthetic layout template."
+    },
+    {
+      "group_id": "NEAR_DUPLICATE_PAIR_2",
+      "document_id": "INDIC_0160 vs INDIC_0161",
+      "representative_id": "RETAIN_BOTH",
+      "original_split": "INDIC_0160=test, INDIC_0161=train",
+      "status": "GENUINE_DISTINCT_DOCUMENTS",
+      "action": "RETAIN_IN_SPLITS",
+      "reason": "Distinct text strings verified; pHash distance 2 caused by shared synthetic layout template."
+    }
+  ]
+}

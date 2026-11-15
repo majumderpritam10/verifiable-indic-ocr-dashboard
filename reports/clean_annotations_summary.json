@@ -1,0 +1,31 @@
+{
+  "run_timestamp": "2026-11-15 10:54:57",
+  "phase": "Phase 6a \u2014 Annotation Cleaning",
+  "input_records_total": 2400,
+  "clean_records_retained": 2362,
+  "quarantined_corrupt_records": 32,
+  "quarantined_duplicate_records": 6,
+  "missing_gt_flagged_records": 12,
+  "missing_bbox_records": 20,
+  "script_distribution": {
+    "en": 824,
+    "hi": 784,
+    "bn": 754
+  },
+  "field_distribution": {
+    "signature": 296,
+    "phone_number": 296,
+    "name": 295,
+    "date": 295,
+    "address": 295,
+    "total_amount": 295,
+    "recipient": 295,
+    "district": 295
+  },
+  "normalization_rules": [
+    "Unicode NFC normalization",
+    "Removal of non-printable / zero-width characters",
+    "Whitespace collapse and trimming",
+    "Preservation of raw text (text_raw) and normalized text (text)"
+  ]
+}

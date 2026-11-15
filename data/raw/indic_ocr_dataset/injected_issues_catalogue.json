@@ -1,0 +1,83 @@
+{
+  "missing_language_ids": [
+    "INDIC_0015",
+    "INDIC_0042",
+    "INDIC_0073",
+    "INDIC_0118",
+    "INDIC_0251"
+  ],
+  "missing_doctype_ids": [
+    "INDIC_0022",
+    "INDIC_0055",
+    "INDIC_0089",
+    "INDIC_0134",
+    "INDIC_0167",
+    "INDIC_0200",
+    "INDIC_0233",
+    "INDIC_0278"
+  ],
+  "corrupt_image_ids": [
+    "INDIC_0050",
+    "INDIC_0100",
+    "INDIC_0199",
+    "INDIC_0299"
+  ],
+  "near_duplicate_pairs": [
+    [
+      "INDIC_0110",
+      "INDIC_0111"
+    ],
+    [
+      "INDIC_0160",
+      "INDIC_0161"
+    ],
+    [
+      "INDIC_0210",
+      "INDIC_0211"
+    ]
+  ],
+  "missing_gt_ann_indices": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311
+  ],
+  "missing_bbox_ann_indices": [
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499
+  ],
+  "duplicate_ann_indices": [
+    600,
+    601,
+    602,
+    700,
+    701,
+    702
+  ]
+}

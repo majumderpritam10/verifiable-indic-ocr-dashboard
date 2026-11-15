@@ -1,0 +1,80 @@
+{
+  "run_timestamp": "2026-11-15 10:50:03",
+  "phase": "Phase 5 \u2014 Image Quality Analysis",
+  "total_images": 300,
+  "usable_images": 296,
+  "corrupt_images": 4,
+  "corrupt_doc_ids": [
+    "INDIC_0050",
+    "INDIC_0100",
+    "INDIC_0199",
+    "INDIC_0299"
+  ],
+  "thresholds_used": {
+    "blur_threshold_laplacian_var": 100.0,
+    "contrast_low_threshold_std": 30.0,
+    "noise_high_threshold_mad": 50.0,
+    "min_image_width": 100,
+    "min_image_height": 100
+  },
+  "quality_label_distribution": {
+    "poor": 296,
+    "corrupt": 4
+  },
+  "recommended_action_distribution": {
+    "preprocess": 296,
+    "quarantine": 4
+  },
+  "defect_counts": {
+    "is_corrupt": 4,
+    "is_blank_placeholder": 296,
+    "is_low_contrast": 296,
+    "is_blurry": 296,
+    "is_overexposed": 296,
+    "is_underexposed": 0,
+    "is_noisy": 0,
+    "is_low_resolution": 0
+  },
+  "metric_statistics_valid_images": {
+    "width": {
+      "min": 1200,
+      "max": 1200,
+      "mean": 1200.0
+    },
+    "height": {
+      "min": 1600,
+      "max": 1600,
+      "mean": 1600.0
+    },
+    "brightness_mean": {
+      "min": 255.0,
+      "max": 255.0,
+      "mean": 255.0
+    },
+    "contrast_std": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "blur_laplacian_var": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "noise_estimate_mad": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "quality_score": {
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    }
+  },
+  "downstream_recommendations": {
+    "phase_6_clean_annotations": "Filter out annotations associated with the 4 corrupt images.",
+    "phase_7_image_preprocessing": "Blank placeholder images require synthetic character rendering / CLAHE contrast stretching before feeding into OCR recognition models.",
+    "phase_10_augmentation": "Apply mild/moderate geometric and photometric transforms only to the training set."
+  }
+}

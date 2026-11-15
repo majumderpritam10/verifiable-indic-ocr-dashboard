@@ -1,0 +1,13 @@
+check_id,check_name,expected,actual,status,impact
+CHK_01,Image Readability & File Integrity,"100% of 764 usable images readable, non-zero byte, 1200x1600 px","Readable: 764/764, Corrupt: 0, Dim Mismatches: 0",PASS,CRITICAL
+CHK_02,Blank Placeholder Absence,"0 blank placeholder images (std >= 1.0, dynamic range = 255)","Blank placeholders: 0, Min contrast std: 12.73, Mean contrast std: 19.44",PASS,CRITICAL
+CHK_03,Original Document Split Ratio,Target 80:10:10 (~237 Train / ~29 Val / ~30 Test = 296 docs),"Train: 237 (80.1%), Val: 29 (9.8%), Test: 30 (10.1%)",PASS,HIGH
+CHK_04,Augmented Data Isolation (Train-Only),468 augmented images bound strictly to Train; 0 in Val/Test,"Train: 468, Val: 0, Test: 0, Orphan Parents: 0",PASS,CRITICAL
+CHK_05,Document ID Cross-Split Isolation,"0 document ID overlap between Train, Val, and Test","Train ∩ Val: 0, Train ∩ Test: 0, Val ∩ Test: 0",PASS,CRITICAL
+CHK_06,Exact SHA-256 Image Duplicate Isolation,0 SHA-256 duplicate image collisions across splits,"Train ∩ Val: 0, Train ∩ Test: 0, Val ∩ Test: 0 (Total cross-split collisions: 0)",PASS,CRITICAL
+CHK_07,Perceptual Hash (pHash) Near-Duplicate Isolation,"0 near-duplicate pairs (pHash dist <= 4) cross-split, or documented as distinct","14790 cross-split layout pairs (INDIC_0110↔INDIC_0111 dist=4, INDIC_0160↔INDIC_0161 dist=2; distinct text verified)",WARNING,MEDIUM (SIMILARITY WARNING)
+CHK_08,Text & Template Re-use Across Splits,0 identical template text strings across splits,"Train ∩ Val: 1, Train ∩ Test: 0, Val ∩ Test: 0 (Total cross-split overlap: 1)",WARNING,HIGH
+CHK_09,Bounding Box Geometric Validity & Bounds,"100% of defined bounding boxes valid in [0, 1200]x[0, 1600], w>=5, h>=5","Evaluated: 6076, Valid: 6076, Null: 0, Out-of-bounds: 0",PASS,CRITICAL
+CHK_10,Annotation Completeness & Empty GT Handling,100% complete in usable set; 12 empty GT negative samples preserved separately,"Usable Complete: 6076/6076 (100.0%), Usable Empty: 0, Negative Samples Preserved: 12",PASS,CRITICAL
+CHK_11,Script Label & Unicode Block Consistency,>99% concordance between declared script and Unicode text glyphs,"Evaluated: 6076, Concordance: 100.00%, Mismatches: 0",PASS,HIGH
+CHK_12,Annotation-to-Image 1-to-1 Linkage,100% of usable annotation records point to valid manifest images,"Verified: 6076/6076, Broken References: 0",PASS,CRITICAL

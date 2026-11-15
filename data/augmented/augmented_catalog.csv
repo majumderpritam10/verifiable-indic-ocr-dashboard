@@ -1,0 +1,473 @@
+augmented_doc_id,parent_doc_id,recipe,script,doc_type,transforms,num_fields,valid_bboxes,image_width,image_height,file_path,split
+INDIC_0001_aug_mild,INDIC_0001,mild,bn,document,rotation_-0.5deg | contrast_0.99 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0001_aug_mild.png,train
+INDIC_0001_aug_moderate,INDIC_0001,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0001_aug_moderate.png,train
+INDIC_0002_aug_mild,INDIC_0002,mild,bn,document,rotation_+0.8deg | contrast_1.00 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0002_aug_mild.png,train
+INDIC_0002_aug_moderate,INDIC_0002,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0002_aug_moderate.png,train
+INDIC_0003_aug_mild,INDIC_0003,mild,bn,document,rotation_+0.5deg | contrast_1.01 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0003_aug_mild.png,train
+INDIC_0003_aug_moderate,INDIC_0003,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0003_aug_moderate.png,train
+INDIC_0005_aug_mild,INDIC_0005,mild,bn,document,rotation_-0.5deg | contrast_0.98 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0005_aug_mild.png,train
+INDIC_0005_aug_moderate,INDIC_0005,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0005_aug_moderate.png,train
+INDIC_0006_aug_mild,INDIC_0006,mild,bn,document,rotation_+0.5deg | contrast_0.99 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0006_aug_mild.png,train
+INDIC_0006_aug_moderate,INDIC_0006,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0006_aug_moderate.png,train
+INDIC_0007_aug_mild,INDIC_0007,mild,bn,document,rotation_+0.8deg | contrast_0.95 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0007_aug_mild.png,train
+INDIC_0007_aug_moderate,INDIC_0007,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0007_aug_moderate.png,train
+INDIC_0008_aug_mild,INDIC_0008,mild,bn,document,rotation_+0.8deg | contrast_0.97 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0008_aug_mild.png,train
+INDIC_0008_aug_moderate,INDIC_0008,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0008_aug_moderate.png,train
+INDIC_0009_aug_mild,INDIC_0009,mild,bn,document,rotation_+0.5deg | contrast_1.04 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0009_aug_mild.png,train
+INDIC_0009_aug_moderate,INDIC_0009,moderate,bn,document,rotation_+1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0009_aug_moderate.png,train
+INDIC_0010_aug_mild,INDIC_0010,mild,bn,document,rotation_-0.8deg | contrast_0.96 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0010_aug_mild.png,train
+INDIC_0010_aug_moderate,INDIC_0010,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0010_aug_moderate.png,train
+INDIC_0011_aug_mild,INDIC_0011,mild,bn,document,rotation_-0.8deg | contrast_1.03 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0011_aug_mild.png,train
+INDIC_0011_aug_moderate,INDIC_0011,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0011_aug_moderate.png,train
+INDIC_0013_aug_mild,INDIC_0013,mild,bn,document,rotation_-0.8deg | contrast_0.97 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0013_aug_mild.png,train
+INDIC_0013_aug_moderate,INDIC_0013,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0013_aug_moderate.png,train
+INDIC_0014_aug_mild,INDIC_0014,mild,bn,document,rotation_-0.8deg | contrast_0.97 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0014_aug_mild.png,train
+INDIC_0014_aug_moderate,INDIC_0014,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0014_aug_moderate.png,train
+INDIC_0016_aug_mild,INDIC_0016,mild,bn,document,rotation_+0.5deg | contrast_1.02 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0016_aug_mild.png,train
+INDIC_0016_aug_moderate,INDIC_0016,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0016_aug_moderate.png,train
+INDIC_0017_aug_mild,INDIC_0017,mild,bn,document,rotation_+0.8deg | contrast_1.02 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0017_aug_mild.png,train
+INDIC_0017_aug_moderate,INDIC_0017,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0017_aug_moderate.png,train
+INDIC_0018_aug_mild,INDIC_0018,mild,bn,document,rotation_+0.8deg | contrast_1.05 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0018_aug_mild.png,train
+INDIC_0018_aug_moderate,INDIC_0018,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0018_aug_moderate.png,train
+INDIC_0019_aug_mild,INDIC_0019,mild,bn,document,rotation_-0.5deg | contrast_1.00 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0019_aug_mild.png,train
+INDIC_0019_aug_moderate,INDIC_0019,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0019_aug_moderate.png,train
+INDIC_0020_aug_mild,INDIC_0020,mild,bn,document,rotation_-0.8deg | contrast_0.98 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0020_aug_mild.png,train
+INDIC_0020_aug_moderate,INDIC_0020,moderate,bn,document,rotation_+1.2deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0020_aug_moderate.png,train
+INDIC_0021_aug_mild,INDIC_0021,mild,bn,document,rotation_+0.5deg | contrast_0.98 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0021_aug_mild.png,train
+INDIC_0021_aug_moderate,INDIC_0021,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0021_aug_moderate.png,train
+INDIC_0022_aug_mild,INDIC_0022,mild,bn,document,rotation_-0.5deg | contrast_1.05 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0022_aug_mild.png,train
+INDIC_0022_aug_moderate,INDIC_0022,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0022_aug_moderate.png,train
+INDIC_0023_aug_mild,INDIC_0023,mild,bn,document,rotation_-0.8deg | contrast_1.00 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0023_aug_mild.png,train
+INDIC_0023_aug_moderate,INDIC_0023,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0023_aug_moderate.png,train
+INDIC_0024_aug_mild,INDIC_0024,mild,bn,document,rotation_-0.5deg | contrast_1.03 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0024_aug_mild.png,train
+INDIC_0024_aug_moderate,INDIC_0024,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0024_aug_moderate.png,train
+INDIC_0027_aug_mild,INDIC_0027,mild,bn,document,rotation_+0.5deg | contrast_0.96 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0027_aug_mild.png,train
+INDIC_0027_aug_moderate,INDIC_0027,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0027_aug_moderate.png,train
+INDIC_0028_aug_mild,INDIC_0028,mild,bn,document,rotation_+0.5deg | contrast_1.04 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0028_aug_mild.png,train
+INDIC_0028_aug_moderate,INDIC_0028,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0028_aug_moderate.png,train
+INDIC_0029_aug_mild,INDIC_0029,mild,bn,document,rotation_-0.8deg | contrast_0.98 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0029_aug_mild.png,train
+INDIC_0029_aug_moderate,INDIC_0029,moderate,bn,document,rotation_+1.2deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0029_aug_moderate.png,train
+INDIC_0031_aug_mild,INDIC_0031,mild,bn,document,rotation_+0.8deg | contrast_0.97 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0031_aug_mild.png,train
+INDIC_0031_aug_moderate,INDIC_0031,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0031_aug_moderate.png,train
+INDIC_0032_aug_mild,INDIC_0032,mild,bn,document,rotation_-0.8deg | contrast_1.04 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0032_aug_mild.png,train
+INDIC_0032_aug_moderate,INDIC_0032,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0032_aug_moderate.png,train
+INDIC_0034_aug_mild,INDIC_0034,mild,bn,document,rotation_-0.8deg | contrast_0.95 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0034_aug_mild.png,train
+INDIC_0034_aug_moderate,INDIC_0034,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0034_aug_moderate.png,train
+INDIC_0035_aug_mild,INDIC_0035,mild,bn,document,rotation_+0.5deg | contrast_1.02 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0035_aug_mild.png,train
+INDIC_0035_aug_moderate,INDIC_0035,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0035_aug_moderate.png,train
+INDIC_0036_aug_mild,INDIC_0036,mild,bn,document,rotation_-0.5deg | contrast_0.95 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0036_aug_mild.png,train
+INDIC_0036_aug_moderate,INDIC_0036,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0036_aug_moderate.png,train
+INDIC_0038_aug_mild,INDIC_0038,mild,bn,document,rotation_+0.8deg | contrast_1.05 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0038_aug_mild.png,train
+INDIC_0038_aug_moderate,INDIC_0038,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0038_aug_moderate.png,train
+INDIC_0039_aug_mild,INDIC_0039,mild,bn,document,rotation_+0.5deg | contrast_1.03 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0039_aug_mild.png,train
+INDIC_0039_aug_moderate,INDIC_0039,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0039_aug_moderate.png,train
+INDIC_0040_aug_mild,INDIC_0040,mild,bn,document,rotation_+0.5deg | contrast_1.04 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0040_aug_mild.png,train
+INDIC_0040_aug_moderate,INDIC_0040,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0040_aug_moderate.png,train
+INDIC_0041_aug_mild,INDIC_0041,mild,bn,document,rotation_-0.5deg | contrast_0.97 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0041_aug_mild.png,train
+INDIC_0041_aug_moderate,INDIC_0041,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0041_aug_moderate.png,train
+INDIC_0042_aug_mild,INDIC_0042,mild,en,document,rotation_+0.8deg | contrast_1.00 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0042_aug_mild.png,train
+INDIC_0042_aug_moderate,INDIC_0042,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0042_aug_moderate.png,train
+INDIC_0043_aug_mild,INDIC_0043,mild,bn,document,rotation_-0.8deg | contrast_0.95 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0043_aug_mild.png,train
+INDIC_0043_aug_moderate,INDIC_0043,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0043_aug_moderate.png,train
+INDIC_0044_aug_mild,INDIC_0044,mild,bn,document,rotation_+0.8deg | contrast_1.04 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0044_aug_mild.png,train
+INDIC_0044_aug_moderate,INDIC_0044,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0044_aug_moderate.png,train
+INDIC_0046_aug_mild,INDIC_0046,mild,bn,document,rotation_-0.8deg | contrast_0.96 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0046_aug_mild.png,train
+INDIC_0046_aug_moderate,INDIC_0046,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0046_aug_moderate.png,train
+INDIC_0048_aug_mild,INDIC_0048,mild,bn,document,rotation_-0.8deg | contrast_1.00 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0048_aug_mild.png,train
+INDIC_0048_aug_moderate,INDIC_0048,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0048_aug_moderate.png,train
+INDIC_0049_aug_mild,INDIC_0049,mild,bn,document,rotation_+0.5deg | contrast_1.04 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0049_aug_mild.png,train
+INDIC_0049_aug_moderate,INDIC_0049,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0049_aug_moderate.png,train
+INDIC_0051_aug_mild,INDIC_0051,mild,bn,document,rotation_+0.5deg | contrast_0.96 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0051_aug_mild.png,train
+INDIC_0051_aug_moderate,INDIC_0051,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0051_aug_moderate.png,train
+INDIC_0052_aug_mild,INDIC_0052,mild,bn,document,rotation_-0.8deg | contrast_0.98 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0052_aug_mild.png,train
+INDIC_0052_aug_moderate,INDIC_0052,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0052_aug_moderate.png,train
+INDIC_0053_aug_mild,INDIC_0053,mild,bn,document,rotation_-0.5deg | contrast_0.97 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0053_aug_mild.png,train
+INDIC_0053_aug_moderate,INDIC_0053,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0053_aug_moderate.png,train
+INDIC_0054_aug_mild,INDIC_0054,mild,bn,document,rotation_+0.8deg | contrast_0.98 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0054_aug_mild.png,train
+INDIC_0054_aug_moderate,INDIC_0054,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0054_aug_moderate.png,train
+INDIC_0055_aug_mild,INDIC_0055,mild,bn,document,rotation_-0.5deg | contrast_1.00 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0055_aug_mild.png,train
+INDIC_0055_aug_moderate,INDIC_0055,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0055_aug_moderate.png,train
+INDIC_0057_aug_mild,INDIC_0057,mild,bn,document,rotation_-0.8deg | contrast_1.03 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0057_aug_mild.png,train
+INDIC_0057_aug_moderate,INDIC_0057,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0057_aug_moderate.png,train
+INDIC_0058_aug_mild,INDIC_0058,mild,bn,document,rotation_+0.8deg | contrast_1.04 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0058_aug_mild.png,train
+INDIC_0058_aug_moderate,INDIC_0058,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0058_aug_moderate.png,train
+INDIC_0059_aug_mild,INDIC_0059,mild,bn,document,rotation_-0.8deg | contrast_1.01 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0059_aug_mild.png,train
+INDIC_0059_aug_moderate,INDIC_0059,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0059_aug_moderate.png,train
+INDIC_0060_aug_mild,INDIC_0060,mild,bn,document,rotation_+0.5deg | contrast_1.02 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0060_aug_mild.png,train
+INDIC_0060_aug_moderate,INDIC_0060,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0060_aug_moderate.png,train
+INDIC_0062_aug_mild,INDIC_0062,mild,bn,document,rotation_-0.8deg | contrast_0.98 | brightness_+7 | gaussian_blur_s0.6,8,0,1200,1600,data\augmented\images\INDIC_0062_aug_mild.png,train
+INDIC_0062_aug_moderate,INDIC_0062,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,0,1200,1600,data\augmented\images\INDIC_0062_aug_moderate.png,train
+INDIC_0063_aug_mild,INDIC_0063,mild,bn,document,rotation_-0.5deg | contrast_1.00 | brightness_-1 | gaussian_blur_s0.6,8,4,1200,1600,data\augmented\images\INDIC_0063_aug_mild.png,train
+INDIC_0063_aug_moderate,INDIC_0063,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,4,1200,1600,data\augmented\images\INDIC_0063_aug_moderate.png,train
+INDIC_0064_aug_mild,INDIC_0064,mild,bn,document,rotation_+0.5deg | contrast_1.04 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0064_aug_mild.png,train
+INDIC_0064_aug_moderate,INDIC_0064,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0064_aug_moderate.png,train
+INDIC_0065_aug_mild,INDIC_0065,mild,bn,document,rotation_+0.8deg | contrast_1.05 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0065_aug_mild.png,train
+INDIC_0065_aug_moderate,INDIC_0065,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0065_aug_moderate.png,train
+INDIC_0066_aug_mild,INDIC_0066,mild,bn,document,rotation_+0.8deg | contrast_0.98 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0066_aug_mild.png,train
+INDIC_0066_aug_moderate,INDIC_0066,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0066_aug_moderate.png,train
+INDIC_0067_aug_mild,INDIC_0067,mild,bn,document,rotation_-0.8deg | contrast_0.98 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0067_aug_mild.png,train
+INDIC_0067_aug_moderate,INDIC_0067,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0067_aug_moderate.png,train
+INDIC_0070_aug_mild,INDIC_0070,mild,bn,document,rotation_-0.5deg | contrast_0.97 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0070_aug_mild.png,train
+INDIC_0070_aug_moderate,INDIC_0070,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0070_aug_moderate.png,train
+INDIC_0071_aug_mild,INDIC_0071,mild,bn,document,rotation_+0.5deg | contrast_0.97 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0071_aug_mild.png,train
+INDIC_0071_aug_moderate,INDIC_0071,moderate,bn,document,rotation_-1.5deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0071_aug_moderate.png,train
+INDIC_0072_aug_mild,INDIC_0072,mild,bn,document,rotation_+0.5deg | contrast_1.02 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0072_aug_mild.png,train
+INDIC_0072_aug_moderate,INDIC_0072,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0072_aug_moderate.png,train
+INDIC_0073_aug_mild,INDIC_0073,mild,en,document,rotation_-0.5deg | contrast_0.98 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0073_aug_mild.png,train
+INDIC_0073_aug_moderate,INDIC_0073,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0073_aug_moderate.png,train
+INDIC_0075_aug_mild,INDIC_0075,mild,bn,document,rotation_+0.5deg | contrast_0.99 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0075_aug_mild.png,train
+INDIC_0075_aug_moderate,INDIC_0075,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0075_aug_moderate.png,train
+INDIC_0077_aug_mild,INDIC_0077,mild,bn,document,rotation_-0.8deg | contrast_0.96 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0077_aug_mild.png,train
+INDIC_0077_aug_moderate,INDIC_0077,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0077_aug_moderate.png,train
+INDIC_0079_aug_mild,INDIC_0079,mild,bn,document,rotation_-0.5deg | contrast_0.96 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0079_aug_mild.png,train
+INDIC_0079_aug_moderate,INDIC_0079,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0079_aug_moderate.png,train
+INDIC_0080_aug_mild,INDIC_0080,mild,bn,document,rotation_+0.8deg | contrast_0.96 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0080_aug_mild.png,train
+INDIC_0080_aug_moderate,INDIC_0080,moderate,bn,document,rotation_-1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0080_aug_moderate.png,train
+INDIC_0081_aug_mild,INDIC_0081,mild,bn,document,rotation_+0.5deg | contrast_0.99 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0081_aug_mild.png,train
+INDIC_0081_aug_moderate,INDIC_0081,moderate,bn,document,rotation_+1.2deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0081_aug_moderate.png,train
+INDIC_0082_aug_mild,INDIC_0082,mild,bn,document,rotation_+0.8deg | contrast_0.96 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0082_aug_mild.png,train
+INDIC_0082_aug_moderate,INDIC_0082,moderate,bn,document,rotation_+1.2deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0082_aug_moderate.png,train
+INDIC_0083_aug_mild,INDIC_0083,mild,bn,document,rotation_+0.8deg | contrast_0.99 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0083_aug_mild.png,train
+INDIC_0083_aug_moderate,INDIC_0083,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0083_aug_moderate.png,train
+INDIC_0084_aug_mild,INDIC_0084,mild,bn,document,rotation_+0.5deg | contrast_1.00 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0084_aug_mild.png,train
+INDIC_0084_aug_moderate,INDIC_0084,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0084_aug_moderate.png,train
+INDIC_0085_aug_mild,INDIC_0085,mild,bn,document,rotation_-0.5deg | contrast_1.01 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0085_aug_mild.png,train
+INDIC_0085_aug_moderate,INDIC_0085,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0085_aug_moderate.png,train
+INDIC_0086_aug_mild,INDIC_0086,mild,bn,document,rotation_-0.5deg | contrast_0.97 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0086_aug_mild.png,train
+INDIC_0086_aug_moderate,INDIC_0086,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0086_aug_moderate.png,train
+INDIC_0087_aug_mild,INDIC_0087,mild,bn,document,rotation_+0.5deg | contrast_0.97 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0087_aug_mild.png,train
+INDIC_0087_aug_moderate,INDIC_0087,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0087_aug_moderate.png,train
+INDIC_0088_aug_mild,INDIC_0088,mild,bn,document,rotation_+0.5deg | contrast_1.02 | brightness_-2 | gaussian_blur_s0.6,5,5,1200,1600,data\augmented\images\INDIC_0088_aug_mild.png,train
+INDIC_0088_aug_moderate,INDIC_0088,moderate,bn,document,rotation_+1.2deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,5,5,1200,1600,data\augmented\images\INDIC_0088_aug_moderate.png,train
+INDIC_0089_aug_mild,INDIC_0089,mild,bn,document,rotation_-0.8deg | contrast_1.03 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0089_aug_mild.png,train
+INDIC_0089_aug_moderate,INDIC_0089,moderate,bn,document,rotation_+1.2deg | scale_1.02 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0089_aug_moderate.png,train
+INDIC_0091_aug_mild,INDIC_0091,mild,bn,document,rotation_+0.8deg | contrast_1.04 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0091_aug_mild.png,train
+INDIC_0091_aug_moderate,INDIC_0091,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0091_aug_moderate.png,train
+INDIC_0092_aug_mild,INDIC_0092,mild,bn,document,rotation_-0.8deg | contrast_1.03 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0092_aug_mild.png,train
+INDIC_0092_aug_moderate,INDIC_0092,moderate,bn,document,rotation_+1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0092_aug_moderate.png,train
+INDIC_0093_aug_mild,INDIC_0093,mild,bn,document,rotation_+0.8deg | contrast_1.01 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0093_aug_mild.png,train
+INDIC_0093_aug_moderate,INDIC_0093,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0093_aug_moderate.png,train
+INDIC_0094_aug_mild,INDIC_0094,mild,bn,document,rotation_+0.8deg | contrast_0.97 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0094_aug_mild.png,train
+INDIC_0094_aug_moderate,INDIC_0094,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0094_aug_moderate.png,train
+INDIC_0095_aug_mild,INDIC_0095,mild,bn,document,rotation_-0.8deg | contrast_1.00 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0095_aug_mild.png,train
+INDIC_0095_aug_moderate,INDIC_0095,moderate,bn,document,rotation_-1.2deg | scale_0.98 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0095_aug_moderate.png,train
+INDIC_0097_aug_mild,INDIC_0097,mild,bn,document,rotation_-0.8deg | contrast_0.98 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0097_aug_mild.png,train
+INDIC_0097_aug_moderate,INDIC_0097,moderate,bn,document,rotation_-1.5deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0097_aug_moderate.png,train
+INDIC_0099_aug_mild,INDIC_0099,mild,bn,document,rotation_+0.8deg | contrast_1.03 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0099_aug_mild.png,train
+INDIC_0099_aug_moderate,INDIC_0099,moderate,bn,document,rotation_+1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0099_aug_moderate.png,train
+INDIC_0102_aug_mild,INDIC_0102,mild,hi,document,rotation_+0.5deg | contrast_1.02 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0102_aug_mild.png,train
+INDIC_0102_aug_moderate,INDIC_0102,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0102_aug_moderate.png,train
+INDIC_0103_aug_mild,INDIC_0103,mild,hi,document,rotation_+0.8deg | contrast_0.99 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0103_aug_mild.png,train
+INDIC_0103_aug_moderate,INDIC_0103,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0103_aug_moderate.png,train
+INDIC_0104_aug_mild,INDIC_0104,mild,hi,document,rotation_-0.8deg | contrast_1.01 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0104_aug_mild.png,train
+INDIC_0104_aug_moderate,INDIC_0104,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0104_aug_moderate.png,train
+INDIC_0105_aug_mild,INDIC_0105,mild,hi,document,rotation_-0.5deg | contrast_1.05 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0105_aug_mild.png,train
+INDIC_0105_aug_moderate,INDIC_0105,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0105_aug_moderate.png,train
+INDIC_0106_aug_mild,INDIC_0106,mild,hi,document,rotation_-0.5deg | contrast_1.01 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0106_aug_mild.png,train
+INDIC_0106_aug_moderate,INDIC_0106,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0106_aug_moderate.png,train
+INDIC_0107_aug_mild,INDIC_0107,mild,hi,document,rotation_+0.5deg | contrast_0.96 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0107_aug_mild.png,train
+INDIC_0107_aug_moderate,INDIC_0107,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0107_aug_moderate.png,train
+INDIC_0108_aug_mild,INDIC_0108,mild,hi,document,rotation_+0.8deg | contrast_0.99 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0108_aug_mild.png,train
+INDIC_0108_aug_moderate,INDIC_0108,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0108_aug_moderate.png,train
+INDIC_0111_aug_mild,INDIC_0111,mild,hi,document,rotation_-0.5deg | contrast_0.98 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0111_aug_mild.png,train
+INDIC_0111_aug_moderate,INDIC_0111,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0111_aug_moderate.png,train
+INDIC_0112_aug_mild,INDIC_0112,mild,hi,document,rotation_-0.5deg | contrast_1.00 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0112_aug_mild.png,train
+INDIC_0112_aug_moderate,INDIC_0112,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0112_aug_moderate.png,train
+INDIC_0113_aug_mild,INDIC_0113,mild,hi,document,rotation_-0.8deg | contrast_1.00 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0113_aug_mild.png,train
+INDIC_0113_aug_moderate,INDIC_0113,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0113_aug_moderate.png,train
+INDIC_0114_aug_mild,INDIC_0114,mild,hi,document,rotation_+0.8deg | contrast_1.00 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0114_aug_mild.png,train
+INDIC_0114_aug_moderate,INDIC_0114,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0114_aug_moderate.png,train
+INDIC_0115_aug_mild,INDIC_0115,mild,hi,document,rotation_+0.8deg | contrast_1.02 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0115_aug_mild.png,train
+INDIC_0115_aug_moderate,INDIC_0115,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0115_aug_moderate.png,train
+INDIC_0117_aug_mild,INDIC_0117,mild,hi,document,rotation_-0.5deg | contrast_1.02 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0117_aug_mild.png,train
+INDIC_0117_aug_moderate,INDIC_0117,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0117_aug_moderate.png,train
+INDIC_0118_aug_mild,INDIC_0118,mild,en,document,rotation_-0.5deg | contrast_0.98 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0118_aug_mild.png,train
+INDIC_0118_aug_moderate,INDIC_0118,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0118_aug_moderate.png,train
+INDIC_0119_aug_mild,INDIC_0119,mild,hi,document,rotation_+0.5deg | contrast_1.03 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0119_aug_mild.png,train
+INDIC_0119_aug_moderate,INDIC_0119,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0119_aug_moderate.png,train
+INDIC_0120_aug_mild,INDIC_0120,mild,hi,document,rotation_-0.8deg | contrast_1.03 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0120_aug_mild.png,train
+INDIC_0120_aug_moderate,INDIC_0120,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0120_aug_moderate.png,train
+INDIC_0121_aug_mild,INDIC_0121,mild,hi,document,rotation_+0.8deg | contrast_1.00 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0121_aug_mild.png,train
+INDIC_0121_aug_moderate,INDIC_0121,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0121_aug_moderate.png,train
+INDIC_0122_aug_mild,INDIC_0122,mild,hi,document,rotation_+0.8deg | contrast_0.95 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0122_aug_mild.png,train
+INDIC_0122_aug_moderate,INDIC_0122,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0122_aug_moderate.png,train
+INDIC_0123_aug_mild,INDIC_0123,mild,hi,document,rotation_-0.5deg | contrast_1.00 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0123_aug_mild.png,train
+INDIC_0123_aug_moderate,INDIC_0123,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0123_aug_moderate.png,train
+INDIC_0124_aug_mild,INDIC_0124,mild,hi,document,rotation_+0.5deg | contrast_1.04 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0124_aug_mild.png,train
+INDIC_0124_aug_moderate,INDIC_0124,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0124_aug_moderate.png,train
+INDIC_0126_aug_mild,INDIC_0126,mild,hi,document,rotation_-0.5deg | contrast_1.04 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0126_aug_mild.png,train
+INDIC_0126_aug_moderate,INDIC_0126,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0126_aug_moderate.png,train
+INDIC_0127_aug_mild,INDIC_0127,mild,hi,document,rotation_-0.5deg | contrast_1.00 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0127_aug_mild.png,train
+INDIC_0127_aug_moderate,INDIC_0127,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0127_aug_moderate.png,train
+INDIC_0128_aug_mild,INDIC_0128,mild,hi,document,rotation_+0.5deg | contrast_1.05 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0128_aug_mild.png,train
+INDIC_0128_aug_moderate,INDIC_0128,moderate,hi,document,rotation_-1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0128_aug_moderate.png,train
+INDIC_0129_aug_mild,INDIC_0129,mild,hi,document,rotation_+0.5deg | contrast_1.04 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0129_aug_mild.png,train
+INDIC_0129_aug_moderate,INDIC_0129,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0129_aug_moderate.png,train
+INDIC_0130_aug_mild,INDIC_0130,mild,hi,document,rotation_+0.8deg | contrast_1.03 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0130_aug_mild.png,train
+INDIC_0130_aug_moderate,INDIC_0130,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0130_aug_moderate.png,train
+INDIC_0131_aug_mild,INDIC_0131,mild,hi,document,rotation_-0.8deg | contrast_0.98 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0131_aug_mild.png,train
+INDIC_0131_aug_moderate,INDIC_0131,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0131_aug_moderate.png,train
+INDIC_0132_aug_mild,INDIC_0132,mild,hi,document,rotation_-0.5deg | contrast_0.98 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0132_aug_mild.png,train
+INDIC_0132_aug_moderate,INDIC_0132,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0132_aug_moderate.png,train
+INDIC_0133_aug_mild,INDIC_0133,mild,hi,document,rotation_-0.5deg | contrast_1.04 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0133_aug_mild.png,train
+INDIC_0133_aug_moderate,INDIC_0133,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0133_aug_moderate.png,train
+INDIC_0135_aug_mild,INDIC_0135,mild,hi,document,rotation_+0.5deg | contrast_0.95 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0135_aug_mild.png,train
+INDIC_0135_aug_moderate,INDIC_0135,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0135_aug_moderate.png,train
+INDIC_0136_aug_mild,INDIC_0136,mild,hi,document,rotation_+0.8deg | contrast_0.96 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0136_aug_mild.png,train
+INDIC_0136_aug_moderate,INDIC_0136,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0136_aug_moderate.png,train
+INDIC_0137_aug_mild,INDIC_0137,mild,hi,document,rotation_-0.5deg | contrast_1.03 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0137_aug_mild.png,train
+INDIC_0137_aug_moderate,INDIC_0137,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0137_aug_moderate.png,train
+INDIC_0140_aug_mild,INDIC_0140,mild,hi,document,rotation_-0.8deg | contrast_0.95 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0140_aug_mild.png,train
+INDIC_0140_aug_moderate,INDIC_0140,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0140_aug_moderate.png,train
+INDIC_0141_aug_mild,INDIC_0141,mild,hi,document,rotation_+0.5deg | contrast_1.02 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0141_aug_mild.png,train
+INDIC_0141_aug_moderate,INDIC_0141,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0141_aug_moderate.png,train
+INDIC_0142_aug_mild,INDIC_0142,mild,hi,document,rotation_-0.5deg | contrast_1.01 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0142_aug_mild.png,train
+INDIC_0142_aug_moderate,INDIC_0142,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0142_aug_moderate.png,train
+INDIC_0143_aug_mild,INDIC_0143,mild,hi,document,rotation_+0.5deg | contrast_1.03 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0143_aug_mild.png,train
+INDIC_0143_aug_moderate,INDIC_0143,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0143_aug_moderate.png,train
+INDIC_0144_aug_mild,INDIC_0144,mild,hi,document,rotation_-0.5deg | contrast_1.03 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0144_aug_mild.png,train
+INDIC_0144_aug_moderate,INDIC_0144,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0144_aug_moderate.png,train
+INDIC_0146_aug_mild,INDIC_0146,mild,hi,document,rotation_-0.5deg | contrast_1.03 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0146_aug_mild.png,train
+INDIC_0146_aug_moderate,INDIC_0146,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0146_aug_moderate.png,train
+INDIC_0147_aug_mild,INDIC_0147,mild,hi,document,rotation_+0.8deg | contrast_0.96 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0147_aug_mild.png,train
+INDIC_0147_aug_moderate,INDIC_0147,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0147_aug_moderate.png,train
+INDIC_0148_aug_mild,INDIC_0148,mild,hi,document,rotation_-0.8deg | contrast_0.97 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0148_aug_mild.png,train
+INDIC_0148_aug_moderate,INDIC_0148,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0148_aug_moderate.png,train
+INDIC_0149_aug_mild,INDIC_0149,mild,hi,document,rotation_-0.8deg | contrast_0.99 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0149_aug_mild.png,train
+INDIC_0149_aug_moderate,INDIC_0149,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0149_aug_moderate.png,train
+INDIC_0150_aug_mild,INDIC_0150,mild,hi,document,rotation_+0.5deg | contrast_1.02 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0150_aug_mild.png,train
+INDIC_0150_aug_moderate,INDIC_0150,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0150_aug_moderate.png,train
+INDIC_0151_aug_mild,INDIC_0151,mild,hi,document,rotation_+0.5deg | contrast_0.97 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0151_aug_mild.png,train
+INDIC_0151_aug_moderate,INDIC_0151,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0151_aug_moderate.png,train
+INDIC_0152_aug_mild,INDIC_0152,mild,hi,document,rotation_-0.8deg | contrast_1.02 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0152_aug_mild.png,train
+INDIC_0152_aug_moderate,INDIC_0152,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0152_aug_moderate.png,train
+INDIC_0153_aug_mild,INDIC_0153,mild,hi,document,rotation_+0.5deg | contrast_1.01 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0153_aug_mild.png,train
+INDIC_0153_aug_moderate,INDIC_0153,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0153_aug_moderate.png,train
+INDIC_0155_aug_mild,INDIC_0155,mild,hi,document,rotation_+0.8deg | contrast_0.96 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0155_aug_mild.png,train
+INDIC_0155_aug_moderate,INDIC_0155,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0155_aug_moderate.png,train
+INDIC_0156_aug_mild,INDIC_0156,mild,hi,document,rotation_+0.5deg | contrast_1.03 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0156_aug_mild.png,train
+INDIC_0156_aug_moderate,INDIC_0156,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0156_aug_moderate.png,train
+INDIC_0157_aug_mild,INDIC_0157,mild,hi,document,rotation_+0.5deg | contrast_0.99 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0157_aug_mild.png,train
+INDIC_0157_aug_moderate,INDIC_0157,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0157_aug_moderate.png,train
+INDIC_0158_aug_mild,INDIC_0158,mild,hi,document,rotation_-0.5deg | contrast_1.01 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0158_aug_mild.png,train
+INDIC_0158_aug_moderate,INDIC_0158,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0158_aug_moderate.png,train
+INDIC_0159_aug_mild,INDIC_0159,mild,hi,document,rotation_-0.5deg | contrast_0.97 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0159_aug_mild.png,train
+INDIC_0159_aug_moderate,INDIC_0159,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0159_aug_moderate.png,train
+INDIC_0161_aug_mild,INDIC_0161,mild,hi,document,rotation_-0.5deg | contrast_1.04 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0161_aug_mild.png,train
+INDIC_0161_aug_moderate,INDIC_0161,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0161_aug_moderate.png,train
+INDIC_0162_aug_mild,INDIC_0162,mild,hi,document,rotation_-0.5deg | contrast_1.05 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0162_aug_mild.png,train
+INDIC_0162_aug_moderate,INDIC_0162,moderate,hi,document,rotation_-1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0162_aug_moderate.png,train
+INDIC_0163_aug_mild,INDIC_0163,mild,hi,document,rotation_+0.5deg | contrast_1.03 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0163_aug_mild.png,train
+INDIC_0163_aug_moderate,INDIC_0163,moderate,hi,document,rotation_-1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0163_aug_moderate.png,train
+INDIC_0165_aug_mild,INDIC_0165,mild,hi,document,rotation_-0.8deg | contrast_1.00 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0165_aug_mild.png,train
+INDIC_0165_aug_moderate,INDIC_0165,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0165_aug_moderate.png,train
+INDIC_0166_aug_mild,INDIC_0166,mild,hi,document,rotation_+0.8deg | contrast_0.96 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0166_aug_mild.png,train
+INDIC_0166_aug_moderate,INDIC_0166,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0166_aug_moderate.png,train
+INDIC_0167_aug_mild,INDIC_0167,mild,hi,document,rotation_-0.8deg | contrast_0.96 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0167_aug_mild.png,train
+INDIC_0167_aug_moderate,INDIC_0167,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0167_aug_moderate.png,train
+INDIC_0168_aug_mild,INDIC_0168,mild,hi,document,rotation_-0.8deg | contrast_0.96 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0168_aug_mild.png,train
+INDIC_0168_aug_moderate,INDIC_0168,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0168_aug_moderate.png,train
+INDIC_0170_aug_mild,INDIC_0170,mild,hi,document,rotation_+0.5deg | contrast_1.01 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0170_aug_mild.png,train
+INDIC_0170_aug_moderate,INDIC_0170,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0170_aug_moderate.png,train
+INDIC_0171_aug_mild,INDIC_0171,mild,hi,document,rotation_+0.8deg | contrast_0.98 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0171_aug_mild.png,train
+INDIC_0171_aug_moderate,INDIC_0171,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0171_aug_moderate.png,train
+INDIC_0172_aug_mild,INDIC_0172,mild,hi,document,rotation_-0.8deg | contrast_1.03 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0172_aug_mild.png,train
+INDIC_0172_aug_moderate,INDIC_0172,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0172_aug_moderate.png,train
+INDIC_0173_aug_mild,INDIC_0173,mild,hi,document,rotation_+0.5deg | contrast_1.01 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0173_aug_mild.png,train
+INDIC_0173_aug_moderate,INDIC_0173,moderate,hi,document,rotation_+1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0173_aug_moderate.png,train
+INDIC_0174_aug_mild,INDIC_0174,mild,hi,document,rotation_-0.8deg | contrast_1.01 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0174_aug_mild.png,train
+INDIC_0174_aug_moderate,INDIC_0174,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0174_aug_moderate.png,train
+INDIC_0175_aug_mild,INDIC_0175,mild,hi,document,rotation_-0.8deg | contrast_1.03 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0175_aug_mild.png,train
+INDIC_0175_aug_moderate,INDIC_0175,moderate,hi,document,rotation_-1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0175_aug_moderate.png,train
+INDIC_0176_aug_mild,INDIC_0176,mild,hi,document,rotation_-0.5deg | contrast_0.95 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0176_aug_mild.png,train
+INDIC_0176_aug_moderate,INDIC_0176,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0176_aug_moderate.png,train
+INDIC_0177_aug_mild,INDIC_0177,mild,hi,document,rotation_-0.8deg | contrast_1.02 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0177_aug_mild.png,train
+INDIC_0177_aug_moderate,INDIC_0177,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0177_aug_moderate.png,train
+INDIC_0178_aug_mild,INDIC_0178,mild,hi,document,rotation_-0.5deg | contrast_0.97 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0178_aug_mild.png,train
+INDIC_0178_aug_moderate,INDIC_0178,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0178_aug_moderate.png,train
+INDIC_0180_aug_mild,INDIC_0180,mild,hi,document,rotation_+0.5deg | contrast_1.01 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0180_aug_mild.png,train
+INDIC_0180_aug_moderate,INDIC_0180,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0180_aug_moderate.png,train
+INDIC_0181_aug_mild,INDIC_0181,mild,hi,document,rotation_-0.5deg | contrast_1.00 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0181_aug_mild.png,train
+INDIC_0181_aug_moderate,INDIC_0181,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0181_aug_moderate.png,train
+INDIC_0182_aug_mild,INDIC_0182,mild,hi,document,rotation_-0.5deg | contrast_1.03 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0182_aug_mild.png,train
+INDIC_0182_aug_moderate,INDIC_0182,moderate,hi,document,rotation_+1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0182_aug_moderate.png,train
+INDIC_0183_aug_mild,INDIC_0183,mild,hi,document,rotation_+0.8deg | contrast_0.97 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0183_aug_mild.png,train
+INDIC_0183_aug_moderate,INDIC_0183,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0183_aug_moderate.png,train
+INDIC_0185_aug_mild,INDIC_0185,mild,hi,document,rotation_-0.8deg | contrast_0.98 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0185_aug_mild.png,train
+INDIC_0185_aug_moderate,INDIC_0185,moderate,hi,document,rotation_-1.2deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0185_aug_moderate.png,train
+INDIC_0186_aug_mild,INDIC_0186,mild,hi,document,rotation_-0.8deg | contrast_1.02 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0186_aug_mild.png,train
+INDIC_0186_aug_moderate,INDIC_0186,moderate,hi,document,rotation_-1.5deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0186_aug_moderate.png,train
+INDIC_0188_aug_mild,INDIC_0188,mild,hi,document,rotation_+0.8deg | contrast_1.05 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0188_aug_mild.png,train
+INDIC_0188_aug_moderate,INDIC_0188,moderate,hi,document,rotation_-1.5deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0188_aug_moderate.png,train
+INDIC_0192_aug_mild,INDIC_0192,mild,hi,document,rotation_+0.8deg | contrast_1.00 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0192_aug_mild.png,train
+INDIC_0192_aug_moderate,INDIC_0192,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0192_aug_moderate.png,train
+INDIC_0193_aug_mild,INDIC_0193,mild,hi,document,rotation_+0.5deg | contrast_1.01 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0193_aug_mild.png,train
+INDIC_0193_aug_moderate,INDIC_0193,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0193_aug_moderate.png,train
+INDIC_0194_aug_mild,INDIC_0194,mild,hi,document,rotation_-0.5deg | contrast_0.98 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0194_aug_mild.png,train
+INDIC_0194_aug_moderate,INDIC_0194,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0194_aug_moderate.png,train
+INDIC_0195_aug_mild,INDIC_0195,mild,hi,document,rotation_-0.8deg | contrast_1.05 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0195_aug_mild.png,train
+INDIC_0195_aug_moderate,INDIC_0195,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0195_aug_moderate.png,train
+INDIC_0197_aug_mild,INDIC_0197,mild,hi,document,rotation_+0.8deg | contrast_0.97 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0197_aug_mild.png,train
+INDIC_0197_aug_moderate,INDIC_0197,moderate,hi,document,rotation_+1.5deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0197_aug_moderate.png,train
+INDIC_0198_aug_mild,INDIC_0198,mild,hi,document,rotation_-0.8deg | contrast_0.98 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0198_aug_mild.png,train
+INDIC_0198_aug_moderate,INDIC_0198,moderate,hi,document,rotation_+1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0198_aug_moderate.png,train
+INDIC_0200_aug_mild,INDIC_0200,mild,hi,document,rotation_-0.8deg | contrast_1.02 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0200_aug_mild.png,train
+INDIC_0200_aug_moderate,INDIC_0200,moderate,hi,document,rotation_-1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0200_aug_moderate.png,train
+INDIC_0201_aug_mild,INDIC_0201,mild,en,document,rotation_+0.8deg | contrast_0.97 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0201_aug_mild.png,train
+INDIC_0201_aug_moderate,INDIC_0201,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0201_aug_moderate.png,train
+INDIC_0202_aug_mild,INDIC_0202,mild,en,document,rotation_-0.8deg | contrast_0.98 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0202_aug_mild.png,train
+INDIC_0202_aug_moderate,INDIC_0202,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0202_aug_moderate.png,train
+INDIC_0203_aug_mild,INDIC_0203,mild,en,document,rotation_-0.5deg | contrast_0.98 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0203_aug_mild.png,train
+INDIC_0203_aug_moderate,INDIC_0203,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0203_aug_moderate.png,train
+INDIC_0204_aug_mild,INDIC_0204,mild,en,document,rotation_+0.5deg | contrast_1.03 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0204_aug_mild.png,train
+INDIC_0204_aug_moderate,INDIC_0204,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0204_aug_moderate.png,train
+INDIC_0205_aug_mild,INDIC_0205,mild,en,document,rotation_-0.5deg | contrast_1.04 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0205_aug_mild.png,train
+INDIC_0205_aug_moderate,INDIC_0205,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0205_aug_moderate.png,train
+INDIC_0207_aug_mild,INDIC_0207,mild,en,document,rotation_+0.5deg | contrast_1.03 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0207_aug_mild.png,train
+INDIC_0207_aug_moderate,INDIC_0207,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0207_aug_moderate.png,train
+INDIC_0208_aug_mild,INDIC_0208,mild,en,document,rotation_-0.8deg | contrast_0.96 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0208_aug_mild.png,train
+INDIC_0208_aug_moderate,INDIC_0208,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0208_aug_moderate.png,train
+INDIC_0210_aug_mild,INDIC_0210,mild,en,document,rotation_-0.8deg | contrast_1.02 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0210_aug_mild.png,train
+INDIC_0210_aug_moderate,INDIC_0210,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0210_aug_moderate.png,train
+INDIC_0211_aug_mild,INDIC_0211,mild,en,document,rotation_-0.5deg | contrast_1.05 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0211_aug_mild.png,train
+INDIC_0211_aug_moderate,INDIC_0211,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0211_aug_moderate.png,train
+INDIC_0212_aug_mild,INDIC_0212,mild,en,document,rotation_-0.8deg | contrast_0.96 | brightness_-5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0212_aug_mild.png,train
+INDIC_0212_aug_moderate,INDIC_0212,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0212_aug_moderate.png,train
+INDIC_0213_aug_mild,INDIC_0213,mild,en,document,rotation_+0.8deg | contrast_1.00 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0213_aug_mild.png,train
+INDIC_0213_aug_moderate,INDIC_0213,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0213_aug_moderate.png,train
+INDIC_0215_aug_mild,INDIC_0215,mild,en,document,rotation_-0.8deg | contrast_1.03 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0215_aug_mild.png,train
+INDIC_0215_aug_moderate,INDIC_0215,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0215_aug_moderate.png,train
+INDIC_0216_aug_mild,INDIC_0216,mild,en,document,rotation_+0.8deg | contrast_0.97 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0216_aug_mild.png,train
+INDIC_0216_aug_moderate,INDIC_0216,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0216_aug_moderate.png,train
+INDIC_0217_aug_mild,INDIC_0217,mild,en,document,rotation_+0.8deg | contrast_0.97 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0217_aug_mild.png,train
+INDIC_0217_aug_moderate,INDIC_0217,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0217_aug_moderate.png,train
+INDIC_0218_aug_mild,INDIC_0218,mild,en,document,rotation_-0.8deg | contrast_1.02 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0218_aug_mild.png,train
+INDIC_0218_aug_moderate,INDIC_0218,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0218_aug_moderate.png,train
+INDIC_0220_aug_mild,INDIC_0220,mild,en,document,rotation_+0.5deg | contrast_0.97 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0220_aug_mild.png,train
+INDIC_0220_aug_moderate,INDIC_0220,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0220_aug_moderate.png,train
+INDIC_0222_aug_mild,INDIC_0222,mild,en,document,rotation_-0.5deg | contrast_1.00 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0222_aug_mild.png,train
+INDIC_0222_aug_moderate,INDIC_0222,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0222_aug_moderate.png,train
+INDIC_0223_aug_mild,INDIC_0223,mild,en,document,rotation_+0.8deg | contrast_1.02 | brightness_-3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0223_aug_mild.png,train
+INDIC_0223_aug_moderate,INDIC_0223,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0223_aug_moderate.png,train
+INDIC_0225_aug_mild,INDIC_0225,mild,en,document,rotation_+0.8deg | contrast_0.97 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0225_aug_mild.png,train
+INDIC_0225_aug_moderate,INDIC_0225,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0225_aug_moderate.png,train
+INDIC_0226_aug_mild,INDIC_0226,mild,en,document,rotation_+0.8deg | contrast_1.02 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0226_aug_mild.png,train
+INDIC_0226_aug_moderate,INDIC_0226,moderate,en,document,rotation_+1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0226_aug_moderate.png,train
+INDIC_0227_aug_mild,INDIC_0227,mild,en,document,rotation_+0.8deg | contrast_1.03 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0227_aug_mild.png,train
+INDIC_0227_aug_moderate,INDIC_0227,moderate,en,document,rotation_+1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0227_aug_moderate.png,train
+INDIC_0228_aug_mild,INDIC_0228,mild,en,document,rotation_-0.8deg | contrast_0.97 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0228_aug_mild.png,train
+INDIC_0228_aug_moderate,INDIC_0228,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0228_aug_moderate.png,train
+INDIC_0230_aug_mild,INDIC_0230,mild,en,document,rotation_+0.8deg | contrast_1.01 | brightness_+1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0230_aug_mild.png,train
+INDIC_0230_aug_moderate,INDIC_0230,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0230_aug_moderate.png,train
+INDIC_0231_aug_mild,INDIC_0231,mild,en,document,rotation_-0.8deg | contrast_0.97 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0231_aug_mild.png,train
+INDIC_0231_aug_moderate,INDIC_0231,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0231_aug_moderate.png,train
+INDIC_0232_aug_mild,INDIC_0232,mild,en,document,rotation_+0.5deg | contrast_1.04 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0232_aug_mild.png,train
+INDIC_0232_aug_moderate,INDIC_0232,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0232_aug_moderate.png,train
+INDIC_0234_aug_mild,INDIC_0234,mild,en,document,rotation_+0.8deg | contrast_1.01 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0234_aug_mild.png,train
+INDIC_0234_aug_moderate,INDIC_0234,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0234_aug_moderate.png,train
+INDIC_0236_aug_mild,INDIC_0236,mild,en,document,rotation_-0.5deg | contrast_1.01 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0236_aug_mild.png,train
+INDIC_0236_aug_moderate,INDIC_0236,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0236_aug_moderate.png,train
+INDIC_0237_aug_mild,INDIC_0237,mild,en,document,rotation_+0.8deg | contrast_1.02 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0237_aug_mild.png,train
+INDIC_0237_aug_moderate,INDIC_0237,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0237_aug_moderate.png,train
+INDIC_0238_aug_mild,INDIC_0238,mild,en,document,rotation_-0.5deg | contrast_1.03 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0238_aug_mild.png,train
+INDIC_0238_aug_moderate,INDIC_0238,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0238_aug_moderate.png,train
+INDIC_0239_aug_mild,INDIC_0239,mild,en,document,rotation_+0.8deg | contrast_0.96 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0239_aug_mild.png,train
+INDIC_0239_aug_moderate,INDIC_0239,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0239_aug_moderate.png,train
+INDIC_0240_aug_mild,INDIC_0240,mild,en,document,rotation_+0.5deg | contrast_1.00 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0240_aug_mild.png,train
+INDIC_0240_aug_moderate,INDIC_0240,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0240_aug_moderate.png,train
+INDIC_0241_aug_mild,INDIC_0241,mild,en,document,rotation_-0.8deg | contrast_0.98 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0241_aug_mild.png,train
+INDIC_0241_aug_moderate,INDIC_0241,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0241_aug_moderate.png,train
+INDIC_0242_aug_mild,INDIC_0242,mild,en,document,rotation_+0.8deg | contrast_1.00 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0242_aug_mild.png,train
+INDIC_0242_aug_moderate,INDIC_0242,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0242_aug_moderate.png,train
+INDIC_0243_aug_mild,INDIC_0243,mild,en,document,rotation_-0.5deg | contrast_0.96 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0243_aug_mild.png,train
+INDIC_0243_aug_moderate,INDIC_0243,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0243_aug_moderate.png,train
+INDIC_0244_aug_mild,INDIC_0244,mild,en,document,rotation_+0.5deg | contrast_1.02 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0244_aug_mild.png,train
+INDIC_0244_aug_moderate,INDIC_0244,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0244_aug_moderate.png,train
+INDIC_0245_aug_mild,INDIC_0245,mild,en,document,rotation_+0.5deg | contrast_0.96 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0245_aug_mild.png,train
+INDIC_0245_aug_moderate,INDIC_0245,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0245_aug_moderate.png,train
+INDIC_0247_aug_mild,INDIC_0247,mild,en,document,rotation_-0.5deg | contrast_0.96 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0247_aug_mild.png,train
+INDIC_0247_aug_moderate,INDIC_0247,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0247_aug_moderate.png,train
+INDIC_0249_aug_mild,INDIC_0249,mild,en,document,rotation_-0.8deg | contrast_1.04 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0249_aug_mild.png,train
+INDIC_0249_aug_moderate,INDIC_0249,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0249_aug_moderate.png,train
+INDIC_0250_aug_mild,INDIC_0250,mild,en,document,rotation_-0.5deg | contrast_0.99 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0250_aug_mild.png,train
+INDIC_0250_aug_moderate,INDIC_0250,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0250_aug_moderate.png,train
+INDIC_0251_aug_mild,INDIC_0251,mild,en,document,rotation_+0.8deg | contrast_0.97 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0251_aug_mild.png,train
+INDIC_0251_aug_moderate,INDIC_0251,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0251_aug_moderate.png,train
+INDIC_0252_aug_mild,INDIC_0252,mild,en,document,rotation_+0.8deg | contrast_1.05 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0252_aug_mild.png,train
+INDIC_0252_aug_moderate,INDIC_0252,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0252_aug_moderate.png,train
+INDIC_0254_aug_mild,INDIC_0254,mild,en,document,rotation_-0.8deg | contrast_0.99 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0254_aug_mild.png,train
+INDIC_0254_aug_moderate,INDIC_0254,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0254_aug_moderate.png,train
+INDIC_0255_aug_mild,INDIC_0255,mild,en,document,rotation_+0.5deg | contrast_1.00 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0255_aug_mild.png,train
+INDIC_0255_aug_moderate,INDIC_0255,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0255_aug_moderate.png,train
+INDIC_0256_aug_mild,INDIC_0256,mild,en,document,rotation_+0.5deg | contrast_0.98 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0256_aug_mild.png,train
+INDIC_0256_aug_moderate,INDIC_0256,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0256_aug_moderate.png,train
+INDIC_0257_aug_mild,INDIC_0257,mild,en,document,rotation_+0.5deg | contrast_0.99 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0257_aug_mild.png,train
+INDIC_0257_aug_moderate,INDIC_0257,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0257_aug_moderate.png,train
+INDIC_0258_aug_mild,INDIC_0258,mild,en,document,rotation_-0.5deg | contrast_1.00 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0258_aug_mild.png,train
+INDIC_0258_aug_moderate,INDIC_0258,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0258_aug_moderate.png,train
+INDIC_0259_aug_mild,INDIC_0259,mild,en,document,rotation_-0.5deg | contrast_0.95 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0259_aug_mild.png,train
+INDIC_0259_aug_moderate,INDIC_0259,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0259_aug_moderate.png,train
+INDIC_0260_aug_mild,INDIC_0260,mild,en,document,rotation_-0.8deg | contrast_1.03 | brightness_+4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0260_aug_mild.png,train
+INDIC_0260_aug_moderate,INDIC_0260,moderate,en,document,rotation_+1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0260_aug_moderate.png,train
+INDIC_0261_aug_mild,INDIC_0261,mild,en,document,rotation_+0.5deg | contrast_1.05 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0261_aug_mild.png,train
+INDIC_0261_aug_moderate,INDIC_0261,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0261_aug_moderate.png,train
+INDIC_0262_aug_mild,INDIC_0262,mild,en,document,rotation_+0.5deg | contrast_0.99 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0262_aug_mild.png,train
+INDIC_0262_aug_moderate,INDIC_0262,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0262_aug_moderate.png,train
+INDIC_0264_aug_mild,INDIC_0264,mild,en,document,rotation_-0.8deg | contrast_1.00 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0264_aug_mild.png,train
+INDIC_0264_aug_moderate,INDIC_0264,moderate,en,document,rotation_+1.5deg | scale_1.02 | contrast_0.95 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0264_aug_moderate.png,train
+INDIC_0265_aug_mild,INDIC_0265,mild,en,document,rotation_+0.5deg | contrast_1.00 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0265_aug_mild.png,train
+INDIC_0265_aug_moderate,INDIC_0265,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0265_aug_moderate.png,train
+INDIC_0266_aug_mild,INDIC_0266,mild,en,document,rotation_-0.5deg | contrast_1.04 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0266_aug_mild.png,train
+INDIC_0266_aug_moderate,INDIC_0266,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.85 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0266_aug_moderate.png,train
+INDIC_0267_aug_mild,INDIC_0267,mild,en,document,rotation_-0.8deg | contrast_1.01 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0267_aug_mild.png,train
+INDIC_0267_aug_moderate,INDIC_0267,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0267_aug_moderate.png,train
+INDIC_0268_aug_mild,INDIC_0268,mild,en,document,rotation_+0.8deg | contrast_1.03 | brightness_+8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0268_aug_mild.png,train
+INDIC_0268_aug_moderate,INDIC_0268,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0268_aug_moderate.png,train
+INDIC_0270_aug_mild,INDIC_0270,mild,en,document,rotation_-0.5deg | contrast_0.98 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0270_aug_mild.png,train
+INDIC_0270_aug_moderate,INDIC_0270,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0270_aug_moderate.png,train
+INDIC_0271_aug_mild,INDIC_0271,mild,en,document,rotation_-0.5deg | contrast_1.01 | brightness_+2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0271_aug_mild.png,train
+INDIC_0271_aug_moderate,INDIC_0271,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0271_aug_moderate.png,train
+INDIC_0272_aug_mild,INDIC_0272,mild,en,document,rotation_+0.5deg | contrast_1.01 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0272_aug_mild.png,train
+INDIC_0272_aug_moderate,INDIC_0272,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0272_aug_moderate.png,train
+INDIC_0273_aug_mild,INDIC_0273,mild,en,document,rotation_-0.5deg | contrast_0.99 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0273_aug_mild.png,train
+INDIC_0273_aug_moderate,INDIC_0273,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.93 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0273_aug_moderate.png,train
+INDIC_0275_aug_mild,INDIC_0275,mild,en,document,rotation_-0.8deg | contrast_1.04 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0275_aug_mild.png,train
+INDIC_0275_aug_moderate,INDIC_0275,moderate,en,document,rotation_-1.2deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0275_aug_moderate.png,train
+INDIC_0276_aug_mild,INDIC_0276,mild,en,document,rotation_+0.5deg | contrast_1.03 | brightness_+7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0276_aug_mild.png,train
+INDIC_0276_aug_moderate,INDIC_0276,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0276_aug_moderate.png,train
+INDIC_0278_aug_mild,INDIC_0278,mild,en,document,rotation_+0.5deg | contrast_0.96 | brightness_-4 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0278_aug_mild.png,train
+INDIC_0278_aug_moderate,INDIC_0278,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0278_aug_moderate.png,train
+INDIC_0279_aug_mild,INDIC_0279,mild,en,document,rotation_+0.8deg | contrast_1.04 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0279_aug_mild.png,train
+INDIC_0279_aug_moderate,INDIC_0279,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0279_aug_moderate.png,train
+INDIC_0280_aug_mild,INDIC_0280,mild,en,document,rotation_+0.8deg | contrast_1.04 | brightness_+6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0280_aug_mild.png,train
+INDIC_0280_aug_moderate,INDIC_0280,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.92 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0280_aug_moderate.png,train
+INDIC_0281_aug_mild,INDIC_0281,mild,en,document,rotation_-0.8deg | contrast_0.96 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0281_aug_mild.png,train
+INDIC_0281_aug_moderate,INDIC_0281,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0281_aug_moderate.png,train
+INDIC_0283_aug_mild,INDIC_0283,mild,en,document,rotation_-0.5deg | contrast_0.97 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0283_aug_mild.png,train
+INDIC_0283_aug_moderate,INDIC_0283,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0283_aug_moderate.png,train
+INDIC_0284_aug_mild,INDIC_0284,mild,en,document,rotation_-0.5deg | contrast_0.98 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0284_aug_mild.png,train
+INDIC_0284_aug_moderate,INDIC_0284,moderate,en,document,rotation_+1.5deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0284_aug_moderate.png,train
+INDIC_0285_aug_mild,INDIC_0285,mild,en,document,rotation_+0.8deg | contrast_0.95 | brightness_-7 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0285_aug_mild.png,train
+INDIC_0285_aug_moderate,INDIC_0285,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0285_aug_moderate.png,train
+INDIC_0286_aug_mild,INDIC_0286,mild,en,document,rotation_+0.8deg | contrast_1.00 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0286_aug_mild.png,train
+INDIC_0286_aug_moderate,INDIC_0286,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.86 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0286_aug_moderate.png,train
+INDIC_0287_aug_mild,INDIC_0287,mild,en,document,rotation_+0.8deg | contrast_0.95 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0287_aug_mild.png,train
+INDIC_0287_aug_moderate,INDIC_0287,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0287_aug_moderate.png,train
+INDIC_0290_aug_mild,INDIC_0290,mild,en,document,rotation_-0.5deg | contrast_0.98 | brightness_-6 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0290_aug_mild.png,train
+INDIC_0290_aug_moderate,INDIC_0290,moderate,en,document,rotation_+1.5deg | scale_1.02 | contrast_0.94 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0290_aug_moderate.png,train
+INDIC_0291_aug_mild,INDIC_0291,mild,en,document,rotation_+0.8deg | contrast_1.04 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0291_aug_mild.png,train
+INDIC_0291_aug_moderate,INDIC_0291,moderate,en,document,rotation_-1.2deg | scale_0.98 | contrast_0.89 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0291_aug_moderate.png,train
+INDIC_0292_aug_mild,INDIC_0292,mild,en,document,rotation_+0.5deg | contrast_0.96 | brightness_+5 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0292_aug_mild.png,train
+INDIC_0292_aug_moderate,INDIC_0292,moderate,en,document,rotation_+1.2deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0292_aug_moderate.png,train
+INDIC_0293_aug_mild,INDIC_0293,mild,en,document,rotation_-0.5deg | contrast_0.97 | brightness_-2 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0293_aug_mild.png,train
+INDIC_0293_aug_moderate,INDIC_0293,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0293_aug_moderate.png,train
+INDIC_0294_aug_mild,INDIC_0294,mild,en,document,rotation_-0.8deg | contrast_1.01 | brightness_-8 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0294_aug_mild.png,train
+INDIC_0294_aug_moderate,INDIC_0294,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.91 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0294_aug_moderate.png,train
+INDIC_0295_aug_mild,INDIC_0295,mild,en,document,rotation_+0.5deg | contrast_0.96 | brightness_+0 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0295_aug_mild.png,train
+INDIC_0295_aug_moderate,INDIC_0295,moderate,en,document,rotation_+1.5deg | scale_1.02 | contrast_0.88 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0295_aug_moderate.png,train
+INDIC_0296_aug_mild,INDIC_0296,mild,en,document,rotation_+0.8deg | contrast_0.98 | brightness_-1 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0296_aug_mild.png,train
+INDIC_0296_aug_moderate,INDIC_0296,moderate,en,document,rotation_+1.2deg | scale_0.98 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0296_aug_moderate.png,train
+INDIC_0298_aug_mild,INDIC_0298,mild,en,document,rotation_+0.5deg | contrast_1.05 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0298_aug_mild.png,train
+INDIC_0298_aug_moderate,INDIC_0298,moderate,en,document,rotation_-1.5deg | scale_1.02 | contrast_0.90 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0298_aug_moderate.png,train
+INDIC_0300_aug_mild,INDIC_0300,mild,en,document,rotation_-0.8deg | contrast_0.95 | brightness_+3 | gaussian_blur_s0.6,8,8,1200,1600,data\augmented\images\INDIC_0300_aug_mild.png,train
+INDIC_0300_aug_moderate,INDIC_0300,moderate,en,document,rotation_-1.5deg | scale_0.98 | contrast_0.87 | noise_sigma12 | gaussian_blur_s0.9,8,8,1200,1600,data\augmented\images\INDIC_0300_aug_moderate.png,train

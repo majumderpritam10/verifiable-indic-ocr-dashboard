@@ -1,0 +1,33 @@
+document_id,field_name,text,script,bbox,missing_text,missing_bbox,missing_script,invalid_script,doc_ref_missing,proposed_script,_line_no
+INDIC_0038,total_amount,,bn,"[80, 760, 638, 835]",True,False,False,False,False,,301
+INDIC_0038,recipient,,bn,"[80, 920, 896, 968]",True,False,False,False,False,,302
+INDIC_0038,district,,bn,"[80, 1080, 527, 1147]",True,False,False,False,False,,303
+INDIC_0038,phone_number,,bn,"[80, 1240, 489, 1303]",True,False,False,False,False,,304
+INDIC_0039,name,,bn,"[80, 120, 966, 173]",True,False,False,False,False,,305
+INDIC_0039,date,,bn,"[80, 280, 578, 334]",True,False,False,False,False,,306
+INDIC_0039,address,,bn,"[80, 440, 519, 498]",True,False,False,False,False,,307
+INDIC_0039,signature,,bn,"[80, 600, 874, 674]",True,False,False,False,False,,308
+INDIC_0039,total_amount,,bn,"[80, 760, 818, 821]",True,False,False,False,False,,309
+INDIC_0039,recipient,,bn,"[80, 920, 785, 984]",True,False,False,False,False,,310
+INDIC_0039,district,,bn,"[80, 1080, 572, 1159]",True,False,False,False,False,,311
+INDIC_0039,phone_number,,bn,"[80, 1240, 502, 1306]",True,False,False,False,False,,312
+INDIC_0061,name,জেলা: 3815,bn,,False,True,False,False,False,,481
+INDIC_0061,date,ফোন নম্বর: 5412,bn,,False,True,False,False,False,,482
+INDIC_0061,address,ঠিকানা: 2253,bn,,False,True,False,False,False,,483
+INDIC_0061,signature,মোট পরিমাণ: 6667,bn,,False,True,False,False,False,,484
+INDIC_0061,total_amount,ব্যাংক হিসাব: 3268,bn,,False,True,False,False,False,,485
+INDIC_0061,recipient,জন্ম তারিখ: 4677,bn,,False,True,False,False,False,,486
+INDIC_0061,district,তারিখ: 9407,bn,,False,True,False,False,False,,487
+INDIC_0061,phone_number,নাম: 2869,bn,,False,True,False,False,False,,488
+INDIC_0062,name,নাম: 6505,bn,,False,True,False,False,False,,489
+INDIC_0062,date,মোট পরিমাণ: 4743,bn,,False,True,False,False,False,,490
+INDIC_0062,address,বাংলাদেশ সরকার 4889,bn,,False,True,False,False,False,,491
+INDIC_0062,signature,ঠিকানা: 5490,bn,,False,True,False,False,False,,492
+INDIC_0062,total_amount,পরিষেবা চার্জ: 8902,bn,,False,True,False,False,False,,493
+INDIC_0062,recipient,স্বাক্ষর: 8262,bn,,False,True,False,False,False,,494
+INDIC_0062,district,প্রাপক: 1846,bn,,False,True,False,False,False,,495
+INDIC_0062,phone_number,পিন কোড: 4216,bn,,False,True,False,False,False,,496
+INDIC_0063,name,বাংলাদেশ সরকার 5524,bn,,False,True,False,False,False,,497
+INDIC_0063,date,মোবাইল: 3165,bn,,False,True,False,False,False,,498
+INDIC_0063,address,পরিষেবা চার্জ: 6644,bn,,False,True,False,False,False,,499
+INDIC_0063,signature,কর শনাক্তকরণ: 5373,bn,,False,True,False,False,False,,500

@@ -1,0 +1,123 @@
+{
+  "run_timestamp": "2026-11-15 23:04:42",
+  "final_dataset_status": "READY WITH WARNINGS",
+  "scorecard_summary": {
+    "PASS": 10,
+    "WARNING": 2,
+    "FAIL": 0
+  },
+  "corpus_metrics": {
+    "total_usable_images": 764,
+    "usable_original_documents": 296,
+    "usable_augmented_images": 468,
+    "usable_clean_annotations": 6076,
+    "negative_samples_annotations": 12,
+    "quarantined_images": 64,
+    "quarantined_annotations": 524
+  },
+  "scorecard": [
+    {
+      "check_id": "CHK_01",
+      "check_name": "Image Readability & File Integrity",
+      "expected": "100% of 764 usable images readable, non-zero byte, 1200x1600 px",
+      "actual": "Readable: 764/764, Corrupt: 0, Dim Mismatches: 0",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_02",
+      "check_name": "Blank Placeholder Absence",
+      "expected": "0 blank placeholder images (std >= 1.0, dynamic range = 255)",
+      "actual": "Blank placeholders: 0, Min contrast std: 12.73, Mean contrast std: 19.44",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_03",
+      "check_name": "Original Document Split Ratio",
+      "expected": "Target 80:10:10 (~237 Train / ~29 Val / ~30 Test = 296 docs)",
+      "actual": "Train: 237 (80.1%), Val: 29 (9.8%), Test: 30 (10.1%)",
+      "status": "PASS",
+      "impact": "HIGH"
+    },
+    {
+      "check_id": "CHK_04",
+      "check_name": "Augmented Data Isolation (Train-Only)",
+      "expected": "468 augmented images bound strictly to Train; 0 in Val/Test",
+      "actual": "Train: 468, Val: 0, Test: 0, Orphan Parents: 0",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_05",
+      "check_name": "Document ID Cross-Split Isolation",
+      "expected": "0 document ID overlap between Train, Val, and Test",
+      "actual": "Train \u2229 Val: 0, Train \u2229 Test: 0, Val \u2229 Test: 0",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_06",
+      "check_name": "Exact SHA-256 Image Duplicate Isolation",
+      "expected": "0 SHA-256 duplicate image collisions across splits",
+      "actual": "Train \u2229 Val: 0, Train \u2229 Test: 0, Val \u2229 Test: 0 (Total cross-split collisions: 0)",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_07",
+      "check_name": "Perceptual Hash (pHash) Near-Duplicate Isolation",
+      "expected": "0 near-duplicate pairs (pHash dist <= 4) cross-split, or documented as distinct",
+      "actual": "14790 cross-split layout pairs (INDIC_0110\u2194INDIC_0111 dist=4, INDIC_0160\u2194INDIC_0161 dist=2; distinct text verified)",
+      "status": "WARNING",
+      "impact": "MEDIUM (SIMILARITY WARNING)"
+    },
+    {
+      "check_id": "CHK_08",
+      "check_name": "Text & Template Re-use Across Splits",
+      "expected": "0 identical template text strings across splits",
+      "actual": "Train \u2229 Val: 1, Train \u2229 Test: 0, Val \u2229 Test: 0 (Total cross-split overlap: 1)",
+      "status": "WARNING",
+      "impact": "HIGH"
+    },
+    {
+      "check_id": "CHK_09",
+      "check_name": "Bounding Box Geometric Validity & Bounds",
+      "expected": "100% of defined bounding boxes valid in [0, 1200]x[0, 1600], w>=5, h>=5",
+      "actual": "Evaluated: 6076, Valid: 6076, Null: 0, Out-of-bounds: 0",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_10",
+      "check_name": "Annotation Completeness & Empty GT Handling",
+      "expected": "100% complete in usable set; 12 empty GT negative samples preserved separately",
+      "actual": "Usable Complete: 6076/6076 (100.0%), Usable Empty: 0, Negative Samples Preserved: 12",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    },
+    {
+      "check_id": "CHK_11",
+      "check_name": "Script Label & Unicode Block Consistency",
+      "expected": ">99% concordance between declared script and Unicode text glyphs",
+      "actual": "Evaluated: 6076, Concordance: 100.00%, Mismatches: 0",
+      "status": "PASS",
+      "impact": "HIGH"
+    },
+    {
+      "check_id": "CHK_12",
+      "check_name": "Annotation-to-Image 1-to-1 Linkage",
+      "expected": "100% of usable annotation records point to valid manifest images",
+      "actual": "Verified: 6076/6076, Broken References: 0",
+      "status": "PASS",
+      "impact": "CRITICAL"
+    }
+  ],
+  "documented_findings": [
+    {
+      "type": "NEAR_DUPLICATE_LAYOUT_SIMILARITY",
+      "severity": "LOW",
+      "description": "INDIC_0110 (test) vs INDIC_0111 (train) and INDIC_0160 (test) vs INDIC_0161 (train) share synthetic table structure but contain genuinely distinct text strings; verified and retained."
+    }
+  ]
+}

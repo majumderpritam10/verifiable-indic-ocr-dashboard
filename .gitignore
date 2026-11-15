@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime caches
+.mpl_cache/
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Temporary outputs
+*.log

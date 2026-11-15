@@ -1,0 +1,15 @@
+# Indic OCR Data Engineering — Requirements
+# Python 3.11
+
+pandas>=2.0.0
+numpy>=1.24.0
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+imagehash>=4.3.1
+
+# Streamlit web application (website implementation stage)
+streamlit>=1.35.0
+plotly>=5.20.0

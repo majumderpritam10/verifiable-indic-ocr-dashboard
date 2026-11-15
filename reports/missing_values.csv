@@ -1,0 +1,14 @@
+level,field,total_records,missing_count,missing_pct,handling_rule
+image,Image file on disk,300,0,0.0,QUARANTINE missing image
+image,Corrupt (unreadable) file,300,4,1.33,QUARANTINE corrupt file
+image,Image dimensions (W×H),300,4,1.33,FLAG — retry after preprocessing
+image,Language label,300,0,0.0,INFER from doc_id; flag if ambiguous
+image,Document type,300,300,100.0,MARK as unknown; flag for manual review
+image,Quality label (Phase 5),300,300,100.0,DEFER to Phase 5 (image_quality.py)
+annotation,document_id,2400,0,0.0,QUARANTINE — cannot link to image
+annotation,field_name,2400,0,0.0,RETAIN null; flag for review
+annotation,ground_truth,2400,12,0.5,FLAG FOR MANUAL ANNOTATION
+annotation,bbox,2400,20,0.83,FLAG — exclude from bbox tasks
+annotation,script,2400,0,0.0,PROPOSE from text; verify before use
+annotation,invalid_script,2400,0,0.0,FLAG — correct against schema
+annotation,doc_reference,2400,0,0.0,QUARANTINE — image not on disk
